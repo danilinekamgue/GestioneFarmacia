@@ -1,0 +1,9 @@
+com\mycompany\gestionefarmacia\dao\ClienteDAO.class
+com\mycompany\gestionefarmacia\dao\DatabaseConnection.class
+com\mycompany\gestionefarmacia\model\Ordine.class
+com\mycompany\gestionefarmacia\model\OrdineFarmaco.class
+com\mycompany\gestionefarmacia\dao\FarmacoDAO.class
+com\mycompany\gestionefarmacia\dao\OrdineDAO.class
+com\mycompany\gestionefarmacia\model\Farmaco.class
+com\mycompany\gestionefarmacia\model\Cliente.class
+com\mycompany\gestionefarmacia\GestioneFarmacia.class

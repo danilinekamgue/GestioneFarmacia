@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_4_0.xsd"
+         version="4.0"
+         metadata-complete="true"> <!-- Ajout de l'attribut metadata-complete -->
+
+    <display-name>Gestionefarmacia</display-name>
+
+    <!-- Désactiver l'analyse des TLDs dans les fichiers JAR -->
+    <context-param>
+        <param-name>org.apache.catalina.startup.TldScanner</param-name>
+        <param-value>false</param-value>
+    </context-param>
+    
+    <!-- Définition du servlet FarmacoServlet (décommenter si nécessaire) -->
+    <!--
+    <servlet>
+        <servlet-name>FarmacoServlet</servlet-name>
+        <servlet-class>com.mycompany.gestionefarmacia.controller.FarmacoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FarmacoServlet</servlet-name>
+        <url-pattern>/gestionefarmacia/*</url-pattern>
+    </servlet-mapping>
+    -->
+</web-app>

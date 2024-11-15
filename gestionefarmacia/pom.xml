@@ -1,0 +1,122 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mycompany</groupId>
+    <artifactId>gestionefarmacia</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>gestionefarmacia-1.0-SNAPSHOT</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>  <!-- Mettez à jour la version Java -->
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <failOnMissingWebXml>false</failOnMissingWebXml>  <!-- Permet d'éviter les erreurs si web.xml est manquant -->
+        <jakartaee>8.0.0</jakartaee>  <!-- Utilisation de Jakarta EE -->
+    </properties>
+
+    <dependencies>
+        <!-- Jakarta EE API -->
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>${jakartaee}</version>
+            <scope>provided</scope> <!-- Cette dépendance est fournie par le serveur d'applications -->
+        </dependency>
+
+        <!-- MySQL Connector -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
+        <!-- Dépendance Tomcat Servlet API (exclusivement nécessaire si vous avez besoin des API Servlet) -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-servlet-api</artifactId>
+            <version>9.0.96</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+            <id>spring-plugins</id>
+            <url>https://repo.spring.io/plugins-release/</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+            <!-- Plugin Maven Compiler -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>17</source> <!-- Utilisation de Java 17 -->
+                    <target>17</target> <!-- Utilisation de Java 17 -->
+                </configuration>
+            </plugin>
+
+            <!-- Plugin Tomcat 9 Maven pour le déploiement -->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat-maven-plugin</artifactId>
+                <version>3.0.0-M2</version>
+                <configuration>
+                    <url>http://localhost:8080/manager/text</url> <!-- Utilisez le port 8080 par défaut -->
+                    <server>TomcatServer</server>  <!-- Référence au serveur dans settings.xml -->
+                    <path>/gestionefarmacia</path> <!-- Chemin de l'application déployée -->
+                    <username>root</username>  <!-- Identifiants du manager -->
+                    <password>root</password>  <!-- Identifiants du manager -->
+                </configuration>
+            </plugin>
+
+            <!-- Plugin Maven WAR pour créer le fichier WAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml> <!-- Permet d'éviter une erreur si web.xml est absent -->
+                    <warName>gestionefarmacia</warName> <!-- Nom du fichier WAR généré -->
+                </configuration>
+            </plugin>
+
+            <!-- Plugin de gestion des dépendances -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>copy</goal>  <!-- Copier les dépendances nécessaires -->
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/endorsed</outputDirectory>
+                            <silent>true</silent>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>jakarta.platform</groupId>
+                                    <artifactId>jakarta.jakartaee-api</artifactId>
+                                    <version>${jakartaee}</version>
+                                    <type>jar</type>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
