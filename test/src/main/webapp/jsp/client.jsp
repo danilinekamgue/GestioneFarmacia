@@ -1,23 +1,10 @@
 <html>
 <%@include file="bootstrap.jsp" %>
-<script type="text/javascript" src="/test/script/add-carello.js"></script>
 <body>
-<!-- -->
-< %= java expressoon %>
-<%@ page import="java.util.*,model.*"  %>
-< % java ficntion variable code %>
-< %! declare variable %>
-<h2 class="bg-warning">FARMACIA DANIELLA</h2>
 
-        <button onclick="addCarello(1)"> LOGIN </button>
-    <form action = "login" method = "GET">
-        <button onclick="addCarello(1)"> LOGIN </button>
-    </form>
-     <h5>LISTA DEI PRODOTTI</h5>
+<div >
 
-     <%String name = (String)request.getAttribute("tttt"); %>
-     <%= name %>
-
+</div>
 
 <div class="container-fluid">
     <div class="row">
@@ -40,7 +27,7 @@
                   <td><%=post.getNome()%></td>
                   <td><%=post.getId()%></td>
                   <td><%=post.getId()%></td>
-                  <td> <button  onclick="addCarello( <%=post.getId()%>, <%=post.getId()%>, <%=post.getId()%>)"> + add </button></td>
+                  <td> <button > + add </button></td>
                 </tr>
               <% }} %>
                   <%
@@ -54,7 +41,6 @@
         <div class="col-4">
             <div class="container-fluid bg-success">
                 <h5>ORDINE</h5>
-                <li
             </div>
         </div>
     </div>

@@ -1,0 +1,16 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8›¿Ó³2J$423386d2-c8b4-42c0-871e-d0d0cdf66809
+•
+java:S1989 "SHandle the following exception that could be thrown by "sendRedirect": IOException.(ÿü€-8ñ×øÓ³2J$35fe8de0-bb12-4a62-a353-9e4273d4e45e
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8İˆúÓ³2J$bb618dad-bd61-42d9-bfad-bcb003ed7152
+~	java:S125!"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8ÀÆ¼Ô³2J$4d233dab-2e21-413c-8f5e-f911c843f098
+¤
+java:S1989'"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8ÊÆÊÓ³2J$ecff1fa0-abf1-41b2-991b-e062ce2f2580
+q
+java:S1128"/Remove this unused import 'model.FarmacoModel'.(òß–*8ÌÆÊÓ³2J$81716a01-c011-4825-9bf1-a62e9ac8029a
+x
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8ÌÆÊÓ³2J$78eaf51b-9c8d-4282-a766-d28acab4f41d
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÌÆÊÓ³2J$00562694-7ed1-4d5c-a4ea-8387a91142e0
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÍÆÊÓ³2J$3edd0751-ff2e-400c-af1c-4cebf62ca31a
