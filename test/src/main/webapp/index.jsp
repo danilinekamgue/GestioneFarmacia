@@ -1,5 +1,5 @@
 <html>
-<%@include file="bootstrap.jsp" %>
+<%@include file="../bootstrap.jsp" %>
 <script type="text/javascript" src="/test/script/add-carello.js"></script>
 <body>
 <!-- -->
@@ -21,7 +21,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-8">
+        <div class="col-7">
             <table class="table">
                 <thead>
                   <tr>
@@ -40,21 +40,45 @@
                   <td><%=post.getNome()%></td>
                   <td><%=post.getId()%></td>
                   <td><%=post.getId()%></td>
-                  <td> <button  onclick="addCarello( <%=post.getId()%>, <%=post.getId()%>, <%=post.getId()%>)"> + add </button></td>
+                  <td> <button  onclick="addCarello( <%=post.getId()%>, <%=post.getId()%>, <%=post.getId()%>, <%=post.getId()%>)"> + add </button></td>
                 </tr>
               <% }} %>
                   <%
                     if(formaci == null){
                   %>
-                     <tr><td align="center" colspan="3"> Non ci sono medici disponibili ! </td></tr>
+                     <tr><td align="center" colspan="4"> Non ci sono medici disponibili ! </td></tr>
                   <% } %>
             </table>
         </div>
 
-        <div class="col-4">
+        <div class="col-5">
             <div class="container-fluid bg-success">
                 <h5>ORDINE</h5>
-                <li
+
+            <form method="POST" action="ordine" id="ordine-form" class="container-fluid">
+               <div class="row">
+                    <div class="col-2">
+                        <b> HEADER</b>
+                    </div>
+                    <div class="col-2">
+                        <b> HEADER</b>
+                    </div>
+                    <div class="col-2">
+                        <b> HEADER</b>
+                    </div>
+                    <div class="col-2">
+                        <b> HEADER</b>
+                    </div>
+                    <div class="col-2">
+                        <b> HEADER</b>
+                    </div>
+               </div>
+
+                    <button id="valida_ordine" type="submit" onclick="prepareOrdine()">VALIDA ORDINE</button>
+
+
+
+             </form>
             </div>
         </div>
     </div>
