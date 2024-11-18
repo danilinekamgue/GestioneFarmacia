@@ -1,5 +1,4 @@
 <html>
-<%@include file="bootstrap.jsp" %>
 <body>
 
 <div >

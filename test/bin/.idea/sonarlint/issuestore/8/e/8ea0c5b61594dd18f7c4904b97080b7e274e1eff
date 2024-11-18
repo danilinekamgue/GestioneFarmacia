@@ -1,0 +1,10 @@
+
+
+java:S1854"7Remove this useless assignment to local variable "out".(ïô†úÿÿÿÿ8÷¿„³2J$884cb32c-dc76-4b70-a231-dc6f85caaf12
+˜
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿ8û¿„³2J$ab5a0e9f-bfb8-4bd3-a46e-082b25daa42a
+p
+java:S1481"(Remove this unused "out" local variable.(ïô†úÿÿÿÿ8‡À„³2J$100e4c21-aadc-4be9-8c94-120bc1262535
+©
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Ëù€ˆûÿÿÿÿ8¹×„³2J$6a48689c-93f8-4cfa-9d4e-32e85f46c79b
+X	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8û£Ù¡³2

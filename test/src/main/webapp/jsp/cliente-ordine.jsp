@@ -1,5 +1,4 @@
 <html>
-<%@include file="bootstrap.jsp" %>
 <body>
 
 <div>
@@ -9,7 +8,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-8">
-            <table class="table">
+            <table class="table">  
                 <thead>
                   <tr>
                     <th>Nome</th>
