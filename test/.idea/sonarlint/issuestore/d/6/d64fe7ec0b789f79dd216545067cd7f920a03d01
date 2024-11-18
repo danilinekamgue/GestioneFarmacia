@@ -1,6 +1,4 @@
 
-jWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ8”³ÜØ³2
-a	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8•³ÜØ³2
-TWeb:TableWithoutCaptionCheck" Add a description to this table.(¼ëùÏşÿÿÿÿ8•³ÜØ³2
-E	Web:S1827$")Remove this deprecated "align" attribute.(ìñœš8•³ÜØ³2
-PWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(œ÷Ãûÿÿÿÿ8–³ÜØ³2
+Web:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ8”³ÜØ³2J$48ef75ea-f7f8-4a92-af11-2e697066f5e6
+‡	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8•³ÜØ³2J$e133e5f6-c88b-413d-8496-4a1327592422
+vWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(œ÷Ãûÿÿÿÿ8–³ÜØ³2J$67066f4c-7faa-4c55-8c68-3bda6b93ee19

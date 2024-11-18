@@ -31,3 +31,5 @@ V
 &src/main/webapp/jsp/cliente-ordine.jsp,d\6\d64fe7ec0b789f79dd216545067cd7f920a03d01
 U
 %src/main/webapp/script/add-carello.js,e\7\e742bf2aa69a9bee32b94ebcb21ffa805a979ba9
+^
+.src/main/java/controller/OrdineController.java,9\e\9e3b71037c5d0f9e220bca64dc8e1f88be75906f
