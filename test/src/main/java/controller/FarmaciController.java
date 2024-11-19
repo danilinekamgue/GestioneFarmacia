@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.Farmaco;
 
 @WebServlet("/farmaci")
 public class FarmaciController extends HttpServlet  {
@@ -21,6 +20,7 @@ public class FarmaciController extends HttpServlet  {
 	  @Override
 	    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	        // Simulation de médicaments
+	       /*
 	        List<Farmaco> farmaci = new ArrayList<>();
 	        farmaci.add(new Farmaco(1, "Paracetamol", "Antipiretico"));
 	        farmaci.add(new Farmaco(2, "Ibuprofene", "Antinfiammatorio"));
@@ -29,7 +29,7 @@ public class FarmaciController extends HttpServlet  {
             System.out.println("nnnn");
 	        // Ajouter la liste des médicaments en attribut de requête
 	        request.setAttribute("farmaci", farmaci);
-
+*/
 	        // Rediriger vers le JSP pour afficher la liste
 	        RequestDispatcher dispatcher = request.getRequestDispatcher("home.jsp");
 	        dispatcher.forward(request, response);
