@@ -1,0 +1,18 @@
+
+Œ
+java:S1192"IDefine a constant instead of duplicating this literal "isLogged" 3 times.(õªÉ¿8ÃíÏ‡´2J$cea3e30b-98d7-4c71-a8de-d5b2570e7d10
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ü›ºÆýÿÿÿÿ8§ß¶û³2J$4c388945-43cc-4676-997b-b932b24189c4
+Ä
+java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î8§ß¶û³2J$319b0586-7f8d-4600-9d77-5a141f41e2c6
+”
+java:S1871"LThis branch's code block is the same as the block for the branch on line 24.(„Öœ§üÿÿÿÿ8­ß¶û³2J$c3099c78-9e32-4ed6-8b1e-850dbe837387
+k	java:S108")Either remove or fill this block of code.(õªÉ¿8¯ß¶û³2J$14b1c955-2120-4b51-baf3-f6839516ebdd
+p	java:S108")Either remove or fill this block of code.(„Öœ§üÿÿÿÿ8¯ß¶û³2J$de97b545-eef4-412d-955c-6fefc15016b7
+r	java:S106 "+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8±ß¶û³2J$690ab72a-c685-430b-bbe8-cb4f6170ebf3
+r	java:S106!"+Replace this use of System.out by a logger.(Û¸ãðøÿÿÿÿ8±ß¶û³2J$6c5ed8d1-ea73-4191-8d75-b9a195f21bce
+m	java:S106""+Replace this use of System.out by a logger.(¿Ùå‡8±ß¶û³2J$92603560-7fc3-4ca7-8c0e-732ec0437556
+r	java:S106#"+Replace this use of System.out by a logger.(¡žßÊþÿÿÿÿ8ØÀÎ‡´2J$16101bfd-187e-4d51-b128-52cc77a145bb
+m	java:S106$"+Replace this use of System.out by a logger.(íÏãÿ8¼•Ï‡´2J$9072c494-696c-4f01-951b-6341f81cdafe
+ˆ
+java:S1128"@Remove this unused import 'javax.servlet.annotation.WebServlet'.(™ì¢´þÿÿÿÿ8³ß¶û³2J$89b42ac3-1458-4931-8ead-ac2e75a96a54

@@ -2,33 +2,20 @@
 <%@include file="../bootstrap.jsp" %>
 <script type="text/javascript" src="/test/script/add-carello.js"></script>
 <body>
-<!-- -->
-< %= java expressoon %>
 <%@ page import="java.util.*,model.*"  %>
-< % java ficntion variable code %>
-< %! declare variable %>
 <h2 class="bg-warning">FARMACIA DANIELLA</h2>
-
-        <button onclick="addCarello(1)"> LOGIN </button>
-    <form action = "login" method = "GET">
-        <button onclick="addCarello(1)"> LOGIN </button>
-    </form>
-     <h5>LISTA DEI PRODOTTI</h5>
-
-     <%String name = (String)request.getAttribute("tttt"); %>
-     <%= name %>
 
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-7">
+        <div class="col-9">
+            <h5 class="text-center my-4">LISTA DEI FARMACI DISPONIBILE</h5>
             <table class="table">
                 <thead>
                   <tr>
-                    <th>Nome</th>
-                    <th>Descrizione</th>
-                    <th>Prezzo</th>
-                    <th>Azione</th>
+                    <th width="30%">Nome</th>
+                    <th width="60%">Descrizione</th>
+                    <th width="10%">Prezzo</th>
                   </tr>
                 </thead>
               <%
@@ -40,7 +27,6 @@
                   <td><%=post.getNome()%></td>
                   <td><%=post.getId()%></td>
                   <td><%=post.getId()%></td>
-                  <td> <button  onclick="addCarello( <%=post.getId()%>, <%=post.getId()%>, <%=post.getId()%>, <%=post.getId()%>)"> + add </button></td>
                 </tr>
               <% }} %>
                   <%
@@ -51,34 +37,31 @@
             </table>
         </div>
 
-        <div class="col-5">
-            <div class="container-fluid bg-success">
-                <h5>ORDINE</h5>
+        <div class="col-3">
+            <div class="container-fluid">
+                <h5 class="text-center p-4">LOGIN</h5>
 
-            <form method="POST" action="ordine" id="ordine-form" class="container-fluid">
-               <div class="row">
-                    <div class="col-2">
-                        <b> HEADER</b>
-                    </div>
-                    <div class="col-2">
-                        <b> HEADER</b>
-                    </div>
-                    <div class="col-2">
-                        <b> HEADER</b>
-                    </div>
-                    <div class="col-2">
-                        <b> HEADER</b>
-                    </div>
-                    <div class="col-2">
-                        <b> HEADER</b>
-                    </div>
-               </div>
+                <form action="login" method="POST">
+                  <!-- Email input -->
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" name="email" id="form2Example1" class="form-control" />
+                    <label class="form-label" for="form2Example1">Email address</label>
+                  </div>
 
-                    <button id="valida_ordine" type="submit" onclick="prepareOrdine()">VALIDA ORDINE</button>
+                  <!-- Password input -->
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="password" name="password" id="form2Example2" class="form-control" />
+                    <label class="form-label" for="form2Example2">Password</label>
+                  </div>
 
+                  <!-- Submit button -->
+                  <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
 
+                  <div>
+                    <p class="text-center"> You forgot your password or you do not have an account? Contact the admin </p>
+                  </div>
 
-             </form>
+                </form>
             </div>
         </div>
     </div>

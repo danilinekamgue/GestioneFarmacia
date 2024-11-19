@@ -1,5 +1,8 @@
 package Service;
 
+import config.DbConfig;
+import config.DbInfo;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -7,22 +10,18 @@ import java.sql.ResultSet;
 
 public class ServiceLogin {
 	
-	
-	
-	
-	
-	// Configurazione del database
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/agenzia";
-    private static final String DB_USER = "root"; // Cambia con il tuo username
-    private static final String DB_PASSWORD = "Torino2028!"; // Cambia con la tua password
 
     // Metodo per verificare le credenziali
     public static boolean authenticate(String email, String password) {
+
+        // Connexion à la base de données
+        DbInfo db = DbConfig.getDbConfig();
+
         String query = "SELECT COUNT(*) FROM clients WHERE email = ? AND password = ?";
         boolean authentification=false;
         try { 
         	Class.forName("com.mysql.cj.jdbc.Driver");
-        	Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+        	Connection connection = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
              PreparedStatement preparedStatement = connection.prepareStatement(query) ;
 
             // Imposta i valori dei parametri della query

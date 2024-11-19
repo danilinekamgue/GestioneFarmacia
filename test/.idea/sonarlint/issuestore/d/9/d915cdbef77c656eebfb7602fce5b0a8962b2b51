@@ -1,16 +1,16 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8›¿Ó³2J$423386d2-c8b4-42c0-871e-d0d0cdf66809
-•
-java:S1989 "SHandle the following exception that could be thrown by "sendRedirect": IOException.(ÿü€-8ñ×øÓ³2J$35fe8de0-bb12-4a62-a353-9e4273d4e45e
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8İˆúÓ³2J$bb618dad-bd61-42d9-bfad-bcb003ed7152
-~	java:S125!"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8ÀÆ¼Ô³2J$4d233dab-2e21-413c-8f5e-f911c843f098
+
+java:S1854"<Remove this useless assignment to local variable "password".(ÀÜÜü8Ÿ´ó‰´2J$8c5e8ec7-c61f-44af-8016-57cc35c6c66b
+p
+java:S1481"-Remove this unused "password" local variable.(ÀÜÜü8£´ó‰´2J$5f1329fc-8f79-43e7-bc92-904906b628aa
+r	java:S106("+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8¤´ó‰´2J$ec66676c-22a7-4b35-af95-e7393685ee8a
+ƒ	java:S125)"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8¦´ó‰´2J$5547a840-5327-48d1-84ce-a3772602b8a6
+r	java:S106/"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8©´ó‰´2J$fb95954f-1170-4235-8d6e-f14d9fe934f9
+
+java:S24413"MMake "List" and its parameters serializable or don't store it in the session.(Â‘Ñº8£ô‰´2J$f1ecc1c0-63a1-4978-9f7e-0b6994cd8831
+~	java:S1250"<This block of commented-out lines of code should be removed.(º¨“´8¡¾ô‰´2J$78a33671-c620-415f-bc32-d67f29fbc657
+›
+java:S19894"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8ª´ó‰´2J$61c64721-ab47-4df2-8023-c621c9713c09
+~	java:S1255"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8«´ó‰´2J$f58c03bd-0f12-48be-b407-b71cb502cb74
 ¤
-java:S1989'"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8ÊÆÊÓ³2J$ecff1fa0-abf1-41b2-991b-e062ce2f2580
-q
-java:S1128"/Remove this unused import 'model.FarmacoModel'.(òß–*8ÌÆÊÓ³2J$81716a01-c011-4825-9bf1-a62e9ac8029a
-x
-java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8ÌÆÊÓ³2J$78eaf51b-9c8d-4282-a766-d28acab4f41d
-s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÌÆÊÓ³2J$00562694-7ed1-4d5c-a4ea-8387a91142e0
-s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÍÆÊÓ³2J$3edd0751-ff2e-400c-af1c-4cebf62ca31a
+java:S1989;"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8¬´ó‰´2J$1dc00de8-0d67-4b22-8b42-c5434242ed34

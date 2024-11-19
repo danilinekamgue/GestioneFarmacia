@@ -1,9 +1,13 @@
 
-r	java:S106""+Replace this use of System.out by a logger.(Ã¸¬¤ùÿÿÿÿ8Ÿîéá³2J$cfee5358-3cf9-4875-8fca-3fef8f53e01f
-ƒ	java:S125#"<This block of commented-out lines of code should be removed.(Ô»ì­üÿÿÿÿ8»œ¼â³2J$9259a36f-54c6-4abc-9a4b-b8273a131065
-–
-java:S1989("SHandle the following exception that could be thrown by "sendRedirect": IOException.(¼é©â8 îéá³2J$7e5b4cc1-11ff-4749-abd5-089ea0ce5e30
-~	java:S125)"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8¡îéá³2J$46d92642-7396-43e3-9a2b-44086b4175af
-L	java:S1066"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8¡ñõâ³2
-~
-java:S19899"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8¢ñõâ³2
+
+java:S11927"GDefine a constant instead of duplicating this literal "ndofdf" 4 times.(óÁûÿÿÿÿ8üÙ£Ÿ´2J$248d8c94-9aa7-4f47-b614-588f1e5df4b2
+r	java:S106$"+Replace this use of System.out by a logger.(Ã¸¬¤ùÿÿÿÿ8Ú£Ÿ´2J$23f4482d-21e5-4deb-8a60-5e004cf4b36c
+ƒ	java:S125%"<This block of commented-out lines of code should be removed.(Ô»ì­üÿÿÿÿ8ŽÚ£Ÿ´2J$494cf079-3c4e-46b2-943e-9f2240fa997a
+›
+java:S1989."SHandle the following exception that could be thrown by "sendRedirect": IOException.(É·É÷øÿÿÿÿ8Ú£Ÿ´2J$74492d79-626c-4ae8-8af9-c94f608f883f
+~	java:S125/"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8Ú£Ÿ´2J$b85e2c00-92e6-47ab-a013-7ab7cd1d66ac
+o
+java:S11723",Remove this unused method parameter "email".(ãØ¡œ8’Ú£Ÿ´2J$77888684-c42e-4871-b47b-f8ad88fbb116
+r	java:S106K"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8—Ú£Ÿ´2J$f5eda743-9c0f-4a38-a053-62cb0a64c3b3
+¤
+java:S1989N"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8—Ú£Ÿ´2J$af0cc6f2-13f7-402f-a6d2-5892e7d9b4a3

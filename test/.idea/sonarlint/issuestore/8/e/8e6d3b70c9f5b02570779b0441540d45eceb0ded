@@ -1,6 +1,9 @@
 
-‰Web:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷ÃûÿÿÿÿJ$603d0d8f-32fe-44e6-b402-2e0ba49e708c
-€	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿJ$9e9787e5-e313-4fd4-853e-75771d091a83
-zWeb:TableWithoutCaptionCheck" Add a description to this table.(¼ëùÏşÿÿÿÿ8˜„Ù³2J$dc78191f-3e69-4038-b93d-c7a0fa449afb
-p	Web:S18271")Remove this deprecated "align" attribute.(®úÃñıÿÿÿÿ8™„Ù³2J$1a7bf88c-8332-41e6-8495-4d46ca7f2702
-vWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(œ÷Ãûÿÿÿÿ8ìÂìŞ³2J$37c72561-0a8c-4912-98dc-009e15cae5e5
+‰Web:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷ÃûÿÿÿÿJ$ff64ffcc-6b0c-4741-b255-3f3344b8253f
+€	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿJ$4629ccb3-4d14-4f61-b815-805944c50bff
+zWeb:TableWithoutCaptionCheck" Add a description to this table.(¼ëùÏşÿÿÿÿ8˜„Ù³2J$5ab1d347-f66b-48f6-890a-bbdf79f26a4d
+p	Web:S1827")Remove this deprecated "width" attribute.(›¾‘úÿÿÿÿ8ÖğÑø³2J$1a546fd9-5ac1-41a0-83cb-116001f78532
+k	Web:S1827")Remove this deprecated "width" attribute.(ÏÉä™8Û‹Óø³2J$993af84d-2792-4c45-9c63-4d61829b3755
+k	Web:S1827")Remove this deprecated "width" attribute.(ĞËÉâ8ç¤Óø³2J$1f0efbe6-0f47-4050-b6fa-e22df7c8a596
+p	Web:S1827#")Remove this deprecated "align" attribute.(®úÃñıÿÿÿÿ8™„Ù³2J$24cc2aea-4d9e-4dea-9c56-7297d7ee6a41
+vWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(œ÷Ãûÿÿÿÿ8¬Å²ø³2J$6d687769-eeef-4998-ad14-a2b2e2fa2975

@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import config.DbConfig;
+import config.DbInfo;
 import model.Client;
 
 @WebServlet("/clienti")
@@ -27,13 +29,11 @@ public class ClientiController extends HttpServlet{
             throws ServletException, IOException {
         try {
             // Connexion à la base de données
-            String url = "jdbc:mysql://localhost:3306/agenzia";
-            String user = "root";
-            String password = "Torino2028!";
+            DbInfo db = DbConfig.getDbConfig();
 
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            try (Connection conn = DriverManager.getConnection(url, user, password)) {
+            try (Connection conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword())) {
                 String query = "SELECT * FROM clients";
                 PreparedStatement stmt = conn.prepareStatement(query);
                 ResultSet rs = stmt.executeQuery();

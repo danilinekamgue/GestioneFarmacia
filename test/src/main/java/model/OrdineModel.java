@@ -1,0 +1,48 @@
+package model;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+public class OrdineModel {
+
+    private String numero;
+
+    private LocalDateTime time;
+    private List<FarmacoModel> farmaci;
+    private int prezzototale;
+
+
+
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public LocalDateTime getTime() {
+        return time;
+    }
+
+    public void setTime(LocalDateTime time) {
+        this.time = time;
+    }
+
+    public List<FarmacoModel> getFarmaci() {
+        return farmaci;
+    }
+
+    public void setFarmaci(List<FarmacoModel> farmaci) {
+        this.farmaci = farmaci;
+    }
+
+    public int getPrezzototale() {
+        return prezzototale;
+    }
+
+    public void setPrezzototale(int prezzototale) {
+        this.prezzototale = prezzototale;
+    }
+}

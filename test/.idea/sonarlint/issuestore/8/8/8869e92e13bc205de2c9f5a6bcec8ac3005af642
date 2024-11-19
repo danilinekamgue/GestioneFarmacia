@@ -1,11 +1,16 @@
 
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë™œ–8¤ãâ¤³2J$c875a420-c1c6-4003-a3dd-729a51311ddc
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë™œ–8¤ãâ¤³2J$3b5346af-2d3c-44a2-9ac7-63ee3c135bb7
-“	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‰Ñø8ß–ã¤³2J$da8b4fd0-6631-4933-ab4e-1119c73490ed
-“	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷·¬Ä8ß–ã¤³2J$b225d2ad-f62b-4d30-be79-0f947cad93ca
-¡	java:S116	"_Rename this field "quantita_disponibile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯±…Š8„“¤¤³2J$0ba824ba-92d3-478d-8144-215a2072fd57
-Ÿ	java:S116"XRename this field "data_scadenza" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×àÄœûÿÿÿÿ8˜ö«¤³2J$94b3a45a-bef8-4115-bed1-c49b927f6a0d
-•	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¬àşÿÿÿÿ8ĞÍ°¤³2J$dfacc22f-7400-4992-91b8-25af00738bfe
-	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‰Ñø8ÒÍ°¤³2J$d619ac9c-37f3-4e01-81b0-b7517e8de56c
-	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¬¦*8ÕÍ°¤³2J$15dea04a-043f-491b-913a-e7f14d56639f
-	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷·¬Ä8ÖÍ°¤³2J$4aa050a5-55c6-4f5f-a880-1fff008de1a1
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë™œ–8ÖŒŸ´2J$f2f404b4-5b2c-4bc4-aa26-884e753c330c
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë™œ–8×ŒŸ´2J$e13568f6-3dd7-49f5-932a-6e2210ad9987
+m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¸ƒµ8Ñ¬‘Ÿ´2
+“	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‰Ñø8×ŒŸ´2J$d0a85836-e4d4-4f1c-aa42-ff1140cee7d2
+“	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷·¬Ä8×ŒŸ´2J$822a5d71-f717-4551-8f4d-318658693995
+¡	java:S116	"_Rename this field "quantita_disponibile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯±…Š8ßŒŸ´2J$a5224713-09c0-42a6-b10d-cd3e4dd9cb82
+œ	java:S116
+"ZRename this field "quantita_presso" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÆç±8ßŒŸ´2J$5968e17c-c940-4986-af4e-b633c876e84a
+Ÿ	java:S116"XRename this field "data_scadenza" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×àÄœûÿÿÿÿ8ßŒŸ´2J$28f6dd01-8bc1-4195-97b7-5a0e3220417a
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËØªçøÿÿÿÿ8Ü¬‘Ÿ´2
+j	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¸ƒµ8İ¬‘Ÿ´2
+•	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¬àşÿÿÿÿ8æŒŸ´2J$b640b7bd-bf9b-4aec-b20c-94de3ccba7bc
+	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‰Ñø8æŒŸ´2J$bf07a1e7-3680-409f-9415-75f4a692c9f1
+	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¬¦*8éŒŸ´2J$888777cd-af21-4ced-8bb8-dd647073a135
+	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷·¬Ä8êŒŸ´2J$46416c09-2a7a-4b38-8531-e2627cb93943

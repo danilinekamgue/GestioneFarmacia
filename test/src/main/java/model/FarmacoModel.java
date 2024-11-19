@@ -7,6 +7,7 @@ public class FarmacoModel {
     private String nome;
     private String descrizione;
     private int quantita_disponibile;
+    private int quantita_presso;
     private int prezzo;
     private LocalDate data_scadenza;
 
@@ -21,6 +22,15 @@ public class FarmacoModel {
         this.quantita_disponibile = quantita_disponibile;
         this.prezzo = prezzo;
         this.data_scadenza = data_scadenza;
+        this.quantita_presso = 0;
+    }
+
+    public int getQuantita_presso() {
+        return quantita_presso;
+    }
+
+    public void setQuantita_presso(int quantita_presso) {
+        this.quantita_presso = quantita_presso;
     }
 
     public Long getId() {

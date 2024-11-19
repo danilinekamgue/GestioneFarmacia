@@ -1,0 +1,22 @@
+
+e
+java:S20956"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÀœ¢
+^
+java:S20953"HUse try-with-resources or close this "Connection" in a "finally" clause.(ìº‡
+P
+java:S1161":Add the "@Override" annotation above this method signature(÷¤‹ú
+i
+java:S1989"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É‡óˆ
+P
+java:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿
+@	java:S106&"+Replace this use of System.out by a logger.(ÕÖß’
+k
+java:S1989)"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿ
+L
+java:S64373"6Revoke and change this password, as it is compromised.(ìº‡
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+F
+java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+?
+java:S1128")Remove this unused import 'model.Client'.(±ÍÌ
