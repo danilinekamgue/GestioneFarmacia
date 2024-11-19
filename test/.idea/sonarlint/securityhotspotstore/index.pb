@@ -59,3 +59,5 @@ R
 "src/main/java/config/DbConfig.java,f\2\f23ce9a0951a2c2ea34860770bcaa7382aef5b35
 P
  src/main/java/config/DbInfo.java,a\0\a0a54f6e86687912864b7548bd96255b31d9b2d2
+O
+src/main/java/config/initdb.sql,6\4\64f97d8d01527cf0c76055f87cad43636d21de3e
