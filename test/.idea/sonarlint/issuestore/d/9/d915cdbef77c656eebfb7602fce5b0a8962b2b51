@@ -1,16 +1,19 @@
 
-
-java:S1854"<Remove this useless assignment to local variable "password".(ÀÜÜü8Ÿ´ó‰´2J$8c5e8ec7-c61f-44af-8016-57cc35c6c66b
-p
-java:S1481"-Remove this unused "password" local variable.(ÀÜÜü8£´ó‰´2J$5f1329fc-8f79-43e7-bc92-904906b628aa
-r	java:S106("+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8¤´ó‰´2J$ec66676c-22a7-4b35-af95-e7393685ee8a
-ƒ	java:S125)"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8¦´ó‰´2J$5547a840-5327-48d1-84ce-a3772602b8a6
-r	java:S106/"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8©´ó‰´2J$fb95954f-1170-4235-8d6e-f14d9fe934f9
-
-java:S24413"MMake "List" and its parameters serializable or don't store it in the session.(Â‘Ñº8£ô‰´2J$f1ecc1c0-63a1-4978-9f7e-0b6994cd8831
-~	java:S1250"<This block of commented-out lines of code should be removed.(º¨“´8¡¾ô‰´2J$78a33671-c620-415f-bc32-d67f29fbc657
 ›
-java:S19894"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8ª´ó‰´2J$61c64721-ab47-4df2-8023-c621c9713c09
-~	java:S1255"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8«´ó‰´2J$f58c03bd-0f12-48be-b407-b71cb502cb74
+java:S19897"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8éğà­´2J$8a732163-aaf0-4723-bc48-00c19b646aee
+r	java:S106<"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ãğà­´2J$de0f9d75-dbd9-4cd5-8ef8-d207b060389b
+–
+java:S1989B"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É×Ãª8‰Üê­´2J$14f95e79-0829-420f-99e0-bbd72d01ad5c
+›
+java:S1989G"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8Àé«®´2J$8b9940d9-ba96-4a86-a0a1-37af5842809b
+r	java:S106J"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8Éş§®´2J$51e3c06c-ca1f-4a4c-a104-b73c2e6daa3a
+ƒ	java:S125K"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8Èş§®´2J$c8e1c112-133b-477b-ba07-aad856842eef
+r	java:S106S"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8ó¥®®´2J$a88cabf2-fa89-42c8-a755-32e4366e3f97
+
+java:S2441W"MMake "List" and its parameters serializable or don't store it in the session.(Â‘Ñº8Ëş§®´2J$a91a0723-a6a3-4911-af6c-87d3c99246a1
+~	java:S125T"<This block of commented-out lines of code should be removed.(º¨“´8Ìş§®´2J$affedd40-579f-488c-84e5-96d01856a462
+›
+java:S1989X"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8âı«®´2J$93c9cc0b-f596-431e-92ea-e8ffdead8f24
+~	java:S125Y"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8éğà­´2J$4ba953fe-ba31-45d7-ace8-3b879c97cf2c
 ¤
-java:S1989;"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8¬´ó‰´2J$1dc00de8-0d67-4b22-8b42-c5434242ed34
+java:S1989_"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$bddcb0b4-b76d-4ae9-8140-a67ec64e5661

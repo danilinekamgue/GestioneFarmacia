@@ -1,6 +1,16 @@
 
-v
-java:S1161":Add the "@Override" annotation above this method signature(÷¤‹úJ$c1eb645a-31ca-4c98-92c5-15d9e2657dd9
-k	java:S106."+Replace this use of System.out by a logger.(·µÓŸÿÿÿÿÿJ$92868902-b73b-4395-91db-c82688baa32e
-‚
-java:S19896"AHandle the "ServletException" thrown here in a "try/catch" block.(Òðð…ÿÿÿÿÿJ$b92bd194-81ea-4e55-9cad-3b0153a43989
+e
+java:S2095,"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïŽ§Ø8ãÕé¦´2
+k
+java:S20950"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŠË³l8ãÕé¦´2
+}
+java:S1161":Add the "@Override" annotation above this method signature(÷¤‹ú8éþÚ¦´2J$77bb16f3-4745-4048-b8f3-12244da5a681
+r	java:S106:"+Replace this use of System.out by a logger.(·µÓŸÿÿÿÿÿ8òþÚ¦´2J$e226af66-e2eb-49b7-bb70-a63e2e6ef669
+¤
+java:S1989A"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Ü‰Î›8ôþÚ¦´2J$9b76eb69-a431-406f-bfe1-062ace832a62
+‰
+java:S1989F"AHandle the "ServletException" thrown here in a "try/catch" block.(¾ô®íþÿÿÿÿ8õþÚ¦´2J$75749921-cd46-485b-b00d-d9f2bf6e1dff
+‰
+java:S1989J"AHandle the "ServletException" thrown here in a "try/catch" block.(½Þæ¨üÿÿÿÿ8õþÚ¦´2J$0ff99676-32f0-4880-801b-4cd2030b6e40
+M
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓÞÏÛ8ñÕé¦´2

@@ -1,4 +1,6 @@
 
-Web:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ8ÔôßÓ³2J$0850330e-ab4a-4f7d-8d86-0941a50f4224
-‡	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8ÕôßÓ³2J$69044ff2-0ed5-4d2d-ba68-988d68c68f36
-vWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(œ÷Ãûÿÿÿÿ8ÕôßÓ³2J$82ef2f77-56f8-495a-856d-cff3d79fcec1
+ŠWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(ñ§½W8¸®´2J$1359a087-1c72-4d94-a0a3-ac2a6121c7f5
+zWeb:TableWithoutCaptionCheck>" Add a description to this table.(Ó÷®Œûÿÿÿÿ8ıÜµ®´2J$e3b179ec-9779-46c7-b13f-251fa3b35acf
+{	Web:S6825U"9aria-hidden="true" must not be set on focusable elements.(¬¡á¿8ÿÜµ®´2J$837b3c5f-70c5-4723-9d16-029689b8ff74
+zWeb:TableWithoutCaptionCheckc" Add a description to this table.(Ó÷®Œûÿÿÿÿ8İµ®´2J$49f55759-6237-4d32-8d49-f2b214710d3a
+€	Web:S6825{"9aria-hidden="true" must not be set on focusable elements.(›Ï»Ûúÿÿÿÿ8İµ®´2J$06768fc7-c3bf-43d6-beed-ef9207daf59d
