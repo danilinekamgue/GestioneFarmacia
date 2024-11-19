@@ -33,3 +33,6 @@ CREATE TABLE IF NOT EXISTS ordine_farmaci (
  FOREIGN KEY (id_ordine) REFERENCES ordine(id),
  CONSTRAINT pk_farmaco_ordine PRIMARY KEY (id_famaco, id_ordine)
 );
+
+INSERT INTO users (email, nome, password, role) VALUE 
+('admin@admin.it', 'DANI', 'admin', 'admin');
