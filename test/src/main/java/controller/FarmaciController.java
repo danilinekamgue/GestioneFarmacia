@@ -22,9 +22,9 @@ public class FarmaciController extends HttpServlet  {
 	    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	        // Simulation de médicaments
 	        List<Farmaco> farmaci = new ArrayList<>();
-	        farmaci.add(new Farmaco(1, "Paracetamol", "Antipiretico"));
-	        farmaci.add(new Farmaco(2, "Ibuprofene", "Antinfiammatorio"));
-	        farmaci.add(new Farmaco(3, "Amoxicillina", "Antibiotico"));
+	        farmaci.add(new Farmaco(1, "Paracetamol", "Antipiretico",200,2));
+	        farmaci.add(new Farmaco(2, "Ibuprofene", "Antinfiammatorio",300,3));
+	        farmaci.add(new Farmaco(3, "Amoxicillina", "Antibiotico",400,2));
             System.out.println(farmaci);
             System.out.println("nnnn");
 	        // Ajouter la liste des médicaments en attribut de requête

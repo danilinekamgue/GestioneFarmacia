@@ -34,7 +34,7 @@
                     <a class="nav-link" href="/test/clienti">Clienti</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Prenotazioni</a>
+                    <a class="nav-link" href="/test/orders">Prenotazioni</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -55,7 +55,9 @@
         <h2>Lista Farmaci</h2>
     <% } else if (request.getAttribute("clients") != null) { %>
         <h2>Lista Clienti</h2>
-    <% } %>
+    <% } else if (request.getAttribute("orders") != null) {%>
+    	<h2> Lista Orders</h2>
+    <% }%>
 </h2>
 
 <% if (request.getAttribute("farmaci") != null) { %>
@@ -131,7 +133,48 @@
      <div class="text-center mt-3">
         <a href="addFarmaco.jsp" class="btn btn-success btn-lg">Add Clients</a>
     </div>
-<% } %>
+<% } else if (request.getAttribute("orders") != null) {%> 
+     
+   <div class="container mt-5">
+        <h2>Elenco Ordini</h2>
+        <% if (request.getAttribute("orders") != null) { %>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nome Farmaco</th>
+                        <th>Prezzo Unitario (€)</th>
+                        <th>Quantità</th>
+                        <th>Prezzo Totale (€)</th>
+                        <th>Descrizione </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% 
+                    List<Farmaco> orders = (List<Farmaco>) request.getAttribute("orders");
+                    double totalPrice = (double) request.getAttribute("totalPrice");
+                    for (Farmaco farmaco : orders) { %>
+                        <tr>
+                            <td><%= farmaco.getNome() %></td>
+                            <td><%= farmaco.getPrezzo() %></td>
+                            <td><%= farmaco.getQuantità() %></td>
+                            <td><%= farmaco.calcolaPrezzoTotale() %></td>
+                            <td><%= farmaco.getDescrizione() %></td>
+                        </tr>
+                    <% } %>
+                </tbody>
+            </table>
+            <div class="mt-3">
+                <h4>Prezzo Totale Ordine: €<%= totalPrice %></h4>
+            </div>
+        <% } else { %>
+            <div class="alert alert-warning">
+                Nessun ordine disponibile.
+            </div>
+        <% } %>
+    </div>
+        
+
+     <%} %>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
