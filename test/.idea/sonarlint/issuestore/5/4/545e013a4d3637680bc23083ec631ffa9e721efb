@@ -1,6 +1,12 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8ú¦¶ù³2J$cf9bab11-f7a5-4462-86a9-2c4b5e6c4859
-¤
-java:S1989 "aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8ý¦¶ù³2J$776de03e-eb91-4368-8e68-41557ea62aee
+~	java:S125"<This block of commented-out lines of code should be removed.(Êû£Â8›ú®´2J$e28652f4-7dad-46f0-85b3-7a045db027f4
+~
+java:S1989L"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8§à£®´2
+t
+java:S1128",Remove this unused import 'config.DbConfig'.(œÒ¯öþÿÿÿÿ8íÿ¡®´2J$41ec4253-72e0-45b6-8fc4-fae7af3d54fd
+r
+java:S1128"*Remove this unused import 'config.DbInfo'.(Ä »±ÿÿÿÿÿ8íÿ¡®´2J$e3bd684a-0634-4506-a686-66e43510ecdb
 s
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓÞÏÛ8€§¶ù³2J$f28425ef-d8b4-4d9e-9a9d-d425f5ac9dcf
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓÞÏÛ8îÿ¡®´2J$5cec6b28-1ea7-4224-bd3a-8bcd565d14e9
+h
+java:S1128"%Remove this unused import 'java.sql'.(´Ý…Å8îÿ¡®´2J$d35e7db4-ee3c-447c-a315-87634640fad8

@@ -2,7 +2,6 @@ package controller;
 
 import config.DbConfig;
 import config.DbInfo;
-import model.Client;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 @WebServlet("/init-db")
 public class InitDBController extends HttpServlet {
@@ -78,7 +75,8 @@ public class InitDBController extends HttpServlet {
             if(!rs.next()){
                 stmt.executeUpdate(sqlScript5);
             }
-            request.getRequestDispatcher("/").forward(request, response);
+
+            response.sendRedirect(request.getContextPath() + "/");
 
         } catch (Exception e) {
             System.out.println(e.getMessage());

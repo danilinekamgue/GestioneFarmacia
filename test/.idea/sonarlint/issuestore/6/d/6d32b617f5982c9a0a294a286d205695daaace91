@@ -1,13 +1,7 @@
 
 Š
-java:S2095H"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8ñŞÂ§´2J$510927d6-f017-478f-b2fc-e6ee86eb71cc
+java:S2095E"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8ñŞÂ§´2J$6f10b16f-d82b-4ac4-81f2-439668ecf2a9
 ‹
-java:S2095G"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8ñŞÂ§´2J$2c558cbd-acee-473e-99f4-db216e58ea9a
-r	java:S106T"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ùŞÂ§´2J$34f0a7dc-7503-45ce-b046-ad152d9d5788
-r	java:S106a"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ûŞÂ§´2J$dd0a2233-4aaa-4c0a-a6ef-f6bc8dfa808c
-l
-java:S1128")Remove this unused import 'model.Client'.(±ÍÌ8üŞÂ§´2J$96462eac-4066-4220-aaaf-2a67a26a6c25
-s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8üŞÂ§´2J$b2cc41a8-873f-480f-b50f-c56abea33b06
-s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8üŞÂ§´2J$640b2384-3924-44a1-9f07-b1f0540ebc6c
+java:S2095D"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8ñŞÂ§´2J$422263ab-3c4a-4a4e-8ff6-f960d8ead73e
+r	java:S106R"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ùŞÂ§´2J$ab731c56-a0e7-4cbc-bb00-61497a0571c7
+r	java:S106_"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ûŞÂ§´2J$4cffc4dc-b1e7-4942-97b7-a13378106f52

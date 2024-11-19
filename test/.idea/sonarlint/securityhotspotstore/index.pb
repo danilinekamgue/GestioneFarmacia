@@ -67,3 +67,9 @@ J
 src/main/webapp/initdb.jsp,2\7\273cb8fc0e1c562675c29f767a1bf4d64150040b
 _
 /src/main/java/controller/FarmaciController.java,b\6\b6f86c57078ad384d482d527a0b00d6a7aa9d37d
+Y
+)src/main/java/Service/FarmacoService.java,b\c\bc151f102b4559e49a7d3f4777258b7d284c698f
+V
+&src/main/java/Service/SqlExecutor.java,d\7\d764321f67162db27d6c164c291ffcf2541c646e
+R
+"src/main/java/Service/SqlConn.java,2\d\2d70746b46deb3cd7ac97880d7d651de779c1269

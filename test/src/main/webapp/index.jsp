@@ -41,6 +41,12 @@
             <div class="container-fluid">
                 <h5 class="text-center p-4">LOGIN</h5>
 
+                  <%
+                    if(session.getAttribute("errorMessage") != null){
+                  %>
+                     <p class="text-danger text-center"> <%= session.getAttribute("errorMessage") %> </p>
+                     <% session.setAttribute("errorMessage", null); %>
+                  <% } %>
                 <form action="login" method="POST">
                   <!-- Email input -->
                   <div data-mdb-input-init class="form-outline mb-4">
