@@ -1,6 +1,10 @@
 package controller;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,6 +14,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import config.DbConfig;
+import config.DbInfo;
+import model.Farmaco;
 
 
 @WebServlet("/farmaci")
@@ -22,17 +30,48 @@ public class FarmaciController extends HttpServlet  {
 	        // Simulation de médicaments
 	       /*
 	        List<Farmaco> farmaci = new ArrayList<>();
-	        farmaci.add(new Farmaco(1, "Paracetamol", "Antipiretico"));
-	        farmaci.add(new Farmaco(2, "Ibuprofene", "Antinfiammatorio"));
-	        farmaci.add(new Farmaco(3, "Amoxicillina", "Antibiotico"));
+	        farmaci.add(new Farmaco(1, "Paracetamol", "Antipiretico",200,2));
+	        farmaci.add(new Farmaco(2, "Ibuprofene", "Antinfiammatorio",300,3));
+	        farmaci.add(new Farmaco(3, "Amoxicillina", "Antibiotico",400,2));
             System.out.println(farmaci);
             System.out.println("nnnn");
 	        // Ajouter la liste des médicaments en attribut de requête
 	        request.setAttribute("farmaci", farmaci);
 */
 	        // Rediriger vers le JSP pour afficher la liste
-	        RequestDispatcher dispatcher = request.getRequestDispatcher("home.jsp");
-	        dispatcher.forward(request, response);
+		  
+		    Connection conn = null;
+		    PreparedStatement stmt = null;
+		    ResultSet rs = null;
+		  List<Farmaco> farmaci = new ArrayList<>();
+	        try  {
+	        	
+	        	DbInfo db = DbConfig.getDbConfig();
+
+	            Class.forName("com.mysql.cj.jdbc.Driver");
+	            conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
+	            String query = "SELECT * FROM farmaci";
+	            stmt = conn.prepareStatement(query);
+	            rs = stmt.executeQuery();
+
+	            while (rs.next()) {
+	                Farmaco farmaco = new Farmaco();
+	                farmaco.setId(rs.getInt("id"));
+	                farmaco.setNome(rs.getString("nome"));
+	                farmaco.setDescrizione(rs.getString("descrizione"));
+	                farmaco.setPrezzo(rs.getInt("prezzo"));
+	                farmaco.setQuantita(rs.getInt("quantita"));
+
+	                farmaci.add(farmaco);
+	            }
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	        }
+
+	        request.setAttribute("farmaci", farmaci);
+	        request.getRequestDispatcher("home.jsp").forward(request, response);
 	    }
+	        
+	   
 
 }

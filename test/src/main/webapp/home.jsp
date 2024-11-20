@@ -34,7 +34,7 @@
                     <a class="nav-link" href="/test/clienti">Clienti</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Prenotazioni</a>
+                    <a class="nav-link" href="/test/orders">Prenotazioni</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -55,7 +55,9 @@
         <h2>Lista Farmaci</h2>
     <% } else if (request.getAttribute("clients") != null) { %>
         <h2>Lista Clienti</h2>
-    <% } %>
+    <% } else if (request.getAttribute("orders") != null) {%>
+    	<h2> Lista Orders</h2>
+    <% }%>
 </h2>
 
 <% if (request.getAttribute("farmaci") != null) { %>
@@ -65,6 +67,9 @@
                 <th>ID</th>
                 <th>Nome</th>
                 <th>Descrizione</th>
+                <th>Prezzo</th>
+                <th>Quantità</th>
+                <th>Actions</th>
                
             </tr>
         </thead>
@@ -76,6 +81,8 @@
                     <td><%= farmaco.getId() %></td>
                     <td><%= farmaco.getNome() %></td>
                     <td><%= farmaco.getDescrizione() %></td>
+                    <td><%= farmaco.getPrezzo() %></td>
+                    <td><%= farmaco.getQuantita() %></td>
                      <td>
                         <!-- Pulsante di aggiornamento -->
                         <a href="updateFarmaco.jsp?id=<%= farmaco.getId() %>" class="btn btn-primary btn-sm">U</a>
@@ -93,13 +100,13 @@
         </tbody>
     </table>
       <div class="text-center mt-3">
-        <a href="addFarmaco.jsp" class="btn btn-success btn-lg">Add farmaco</a>
+        <a href="addfarmaco.jsp" class="btn btn-success btn-lg">Add farmaco</a>
     </div>
 <% } else if (request.getAttribute("clients") != null) { %>
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th>ID</th>
+               
                 <th>Nome</th>
                 <th>Email</th>
                 <th>Actions</th>
@@ -110,17 +117,17 @@
             List<Client> clients = (List<Client>) request.getAttribute("clients");
             for (Client client : clients) { %>
                 <tr>
-                    <td><%= client.getId() %></td>
+                    
                     <td><%= client.getNome() %></td>
                     <td><%= client.getEmail() %></td>
                     
                     <td>
                         <!-- Pulsante di aggiornamento -->
-                        <a href="updateClient.jsp?id=<%= client.getId() %>" class="btn btn-primary btn-sm">U</a>
+                        <a href="updateClient.jsp?id=<%= client.getEmail() %>" class="btn btn-primary btn-sm">U</a>
                         
                         <!-- Pulsante di eliminazione -->
                         <form action="deleteClient" method="post" style="display:inline;">
-                            <input type="hidden" name="id" value="<%= client.getId() %>">
+                            <input type="hidden" name="id" value="<%= client.getEmail() %>">
                             <button type="submit" class="btn btn-danger btn-sm">X</button>
                         </form>
                     </td>
@@ -129,9 +136,50 @@
         </tbody>
     </table>
      <div class="text-center mt-3">
-        <a href="addFarmaco.jsp" class="btn btn-success btn-lg">Add Clients</a>
+        <a href="addclient.jsp" class="btn btn-success btn-lg">Add Clients</a>
     </div>
-<% } %>
+<% } else if (request.getAttribute("orders") != null) {%> 
+     
+   <div class="container mt-5">
+        <h2>Elenco Ordini</h2>
+        <% if (request.getAttribute("orders") != null) { %>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nome Farmaco</th>
+                        <th>Prezzo Unitario (€)</th>
+                        <th>Quantità</th>
+                        <th>Prezzo Totale (€)</th>
+                        <th>Descrizione </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% 
+                    List<Farmaco> orders = (List<Farmaco>) request.getAttribute("orders");
+                    double totalPrice = (double) request.getAttribute("totalPrice");
+                    for (Farmaco farmaco : orders) { %>
+                        <tr>
+                            <td><%= farmaco.getNome() %></td>
+                            <td><%= farmaco.getPrezzo() %></td>
+                            <td><%= farmaco.getQuantita() %></td>
+                            <td><%= farmaco.calcolaPrezzoTotale() %></td>
+                            <td><%= farmaco.getDescrizione() %></td>
+                        </tr>
+                    <% } %>
+                </tbody>
+            </table>
+            <div class="mt-3">
+                <h4>Prezzo Totale Ordine: €<%= totalPrice %></h4>
+            </div>
+        <% } else { %>
+            <div class="alert alert-warning">
+                Nessun ordine disponibile.
+            </div>
+        <% } %>
+    </div>
+        
+
+     <%} %>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
