@@ -110,17 +110,16 @@
             List<Client> clients = (List<Client>) request.getAttribute("clients");
             for (Client client : clients) { %>
                 <tr>
-                    <td><%= client.getId() %></td>
                     <td><%= client.getNome() %></td>
                     <td><%= client.getEmail() %></td>
                     
                     <td>
                         <!-- Pulsante di aggiornamento -->
-                        <a href="updateClient.jsp?id=<%= client.getId() %>" class="btn btn-primary btn-sm">U</a>
+                        <a href="updateClient.jsp?id=<%= client.getEmail() %>" class="btn btn-primary btn-sm">U</a>
                         
                         <!-- Pulsante di eliminazione -->
                         <form action="deleteClient" method="post" style="display:inline;">
-                            <input type="hidden" name="id" value="<%= client.getId() %>">
+                            <input type="hidden" name="id" value="<%= client.getEmail() %>">
                             <button type="submit" class="btn btn-danger btn-sm">X</button>
                         </form>
                     </td>
