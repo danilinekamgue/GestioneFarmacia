@@ -1,21 +1,26 @@
 <html>
 <%@include file="../bootstrap.jsp" %>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 <script type="text/javascript" src="/test/script/add-carello.js"></script>
 <body>
 
 <%@ page import="java.util.*,model.*"  %>
+<%@ page import="model.Farmaco" %>
 
+  <div class="container mt-4">
 
-    <form action = "logout" method = "POST">
-        <button onclick="addCarello(1)"> LOGOUT </button>
-    </form>
+   <form action="logout" method="POST">
+            <button type="submit" class="btn btn-danger">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </button>
+   </form>
 <p>Vous Ãªtes <%= session.getAttribute("email")  %>  !</p>
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-7">
-            <table class="table">
-                <thead>
+            <table   class="table table-bordered">
+                <thead >
                   <tr>
                     <th>Nome</th>
                     <th>Descrizione</th>
@@ -24,15 +29,18 @@
                   </tr>
                 </thead>
               <%
-                  ArrayList<FarmacoModel> formaci=(ArrayList<FarmacoModel>) session.getAttribute("farmaci");
+                  ArrayList<Farmaco> formaci=(ArrayList<Farmaco>) session.getAttribute("farmaci");
                   if(formaci != null){
-                    for (FarmacoModel post: formaci) {
+                	  System.out.println("àààààà");
+                    for (Farmaco post: formaci) {
               %>
                 <tr>
                   <td><%=post.getNome()%></td>
                   <td><%=post.getId()%></td>
                   <td><%=post.getId()%></td>
-                  <td> <button  onclick="addCarello( <%=post.getId()%>, <%=post.getId()%>, <%=post.getId()%>, <%=post.getId()%>)"> + add </button></td>
+                  <td> <button onclick="addCarello(<%=post.getId()%>)" class="btn btn-success">
+                                            <i class="fas fa-plus"></i> Add
+                                        </button></td>
                 </tr>
               <% }} %>
                   <%
@@ -74,6 +82,8 @@
             </div>
         </div>
     </div>
+</div>
+</div>
 </div>
 
 </body>

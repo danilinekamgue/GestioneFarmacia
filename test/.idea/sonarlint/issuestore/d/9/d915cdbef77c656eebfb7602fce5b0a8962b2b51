@@ -1,21 +1,26 @@
 
-…
-java:S2259@"BA "NullPointerException" could be thrown; "role" is nullable here.(î­Ôâ8ÌäÆ´2J$7aeca02c-c5c8-4d20-9bd0-01a9f9f93b00
-^
-java:S3626V"Remove this redundant jump.(ûÁİ…8ÂÏèÉ´2J$59e77729-44a5-4ca4-8c7f-3ec7254117ab
-›
-java:S19897"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8éğà­´2J$66670e85-f338-4519-930e-9702bca1ffef
-r	java:S106<"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ãğà­´2J$58e6caf1-e69d-452b-af15-f99b897b585f
-–
-java:S1989A"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É×Ãª8‰Üê­´2J$8bdec104-8913-49f6-a5d6-5da40d756d90
-r	java:S106F"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8Éş§®´2J$3bd0b44a-458c-43d5-a225-00d4b54b8a8f
-ƒ	java:S125G"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8Èş§®´2J$c3910ef7-1aaf-4d29-9cd4-b818d8bf209e
-r	java:S106O"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8ó¥®®´2J$ae43fd10-2fcf-41f0-a45e-e2bb2377543c
-
-java:S2441S"MMake "List" and its parameters serializable or don't store it in the session.(Â‘Ñº8Ëş§®´2J$3cd6de4d-aeea-4c97-b6df-597bf38c9387
-~	java:S125P"<This block of commented-out lines of code should be removed.(º¨“´8Ìş§®´2J$616a2d32-4357-4419-864d-b1ec9c1ea3fb
-›
-java:S1989T"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8âı«®´2J$1b7cfeb7-6717-4b79-a76d-42b35a6f22bd
-~	java:S125U"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8éğà­´2J$42f399e1-152f-4ee4-b397-10af32a0a302
-¤
-java:S1989\"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$8bb8e21d-f88d-4b4a-a353-1ed7a8145371
+_
+java:S2259F"BA "NullPointerException" could be thrown; "role" is nullable here.(î­Ôâ8¡Ó¢Ò´2
+l
+java:S2095j"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(İèæ8¡Ó¢Ò´2
+e
+java:S2095h"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8¡Ó¢Ò´2
+u
+java:S1989="SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8±Ó¢Ò´2
+L	java:S106B"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8µÓ¢Ò´2
+p
+java:S1989G"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É×Ãª8¶Ó¢Ò´2
+L	java:S106L"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8¶Ó¢Ò´2
+]	java:S125M"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8¶Ó¢Ò´2
+]	java:S125Q"<This block of commented-out lines of code should be removed.(‰‚›»úÿÿÿÿ8¶Ó¢Ò´2
+G	java:S106v"+Replace this use of System.out by a logger.(…»÷ß8¹Ó¢Ò´2
+j
+java:S2441|"MMake "List" and its parameters serializable or don't store it in the session.(¬§Ä°8¹Ó¢Ò´2
+u
+java:S1989}"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8¼Ó¢Ò´2
+¥
+java:S1989‚"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$bf69eea8-ef63-422a-81bf-5ef51c417b06
+K
+java:S1128"/Remove this unused import 'model.FarmacoModel'.(òß–*8¼Ó¢Ò´2
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8¼Ó¢Ò´2
