@@ -22,15 +22,17 @@
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
             
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="text" class="form-control" id="password" name="role" required>
-            </div>
+           <div class="form-group">
+         <label for="role">Role</label>
+         <select class="form-control" id="role" name="role" required>
+        <option value="" disabled selected>Seleziona un ruolo</option>
+        <option value="admin">Admin</option>
+        <option value="client">Client</option>
+       
+    </select>
+</div>
             
-             <div class="form-group">
-                <label for="role">Role</label>
-                <input type="text" class="form-control" id="role" name="role" required>
-            </div>
+           
             <button type="submit" class="btn btn-primary">Aggiungi</button>
         </form>
     </div>
