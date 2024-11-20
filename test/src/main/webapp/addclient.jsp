@@ -27,7 +27,7 @@
          <select class="form-control" id="role" name="role" required>
         <option value="" disabled selected>Seleziona un ruolo</option>
         <option value="admin">Admin</option>
-        <option value="user">Client</option>
+        <option value="client">Client</option>
        
     </select>
 </div>
