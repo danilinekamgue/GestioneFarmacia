@@ -16,6 +16,7 @@
                     <th width="30%">Nome</th>
                     <th width="60%">Descrizione</th>
                     <th width="10%">Prezzo</th>
+                    
                   </tr>
                 </thead>
               <%
@@ -26,7 +27,8 @@
                 <tr>
                   <td><%=post.getNome()%></td>
                   <td><%=post.getId()%></td>
-                  <td><%=post.getId()%></td>
+                 
+                  <td><%=post.getPrezzo()%></td>
                 </tr>
               <% }} %>
                   <%
