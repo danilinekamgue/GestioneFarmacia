@@ -85,10 +85,10 @@
                     <td><%= farmaco.getQuantita() %></td>
                      <td>
                         <!-- Pulsante di aggiornamento -->
-                        <a href="updateFarmaco.jsp?id=<%= farmaco.getId() %>" class="btn btn-primary btn-sm">U</a>
+                        <a href="updateFarmaco?id=<%= farmaco.getId() %>" class="btn btn-primary btn-sm">U</a>
                         
                         <!-- Pulsante di eliminazione -->
-                        <form action="deleteClient" method="post" style="display:inline;">
+                        <form action="deletefarmaco" method="post" style="display:inline;">
                             <input type="hidden" name="id" value="<%= farmaco.getId() %>">
                             <button type="submit" class="btn btn-danger btn-sm">X</button>
                         </form>
@@ -184,6 +184,7 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootst
+    rap.bundle.min.js"></script>
 </body>
 </html>
