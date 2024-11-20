@@ -67,6 +67,9 @@
                 <th>ID</th>
                 <th>Nome</th>
                 <th>Descrizione</th>
+                <th>Prezzo</th>
+                <th>Quantità</th>
+                <th>Actions</th>
                
             </tr>
         </thead>
@@ -78,6 +81,8 @@
                     <td><%= farmaco.getId() %></td>
                     <td><%= farmaco.getNome() %></td>
                     <td><%= farmaco.getDescrizione() %></td>
+                    <td><%= farmaco.getPrezzo() %></td>
+                    <td><%= farmaco.getQuantita() %></td>
                      <td>
                         <!-- Pulsante di aggiornamento -->
                         <a href="updateFarmaco.jsp?id=<%= farmaco.getId() %>" class="btn btn-primary btn-sm">U</a>
@@ -95,13 +100,13 @@
         </tbody>
     </table>
       <div class="text-center mt-3">
-        <a href="addFarmaco.jsp" class="btn btn-success btn-lg">Add farmaco</a>
+        <a href="addfarmaco.jsp" class="btn btn-success btn-lg">Add farmaco</a>
     </div>
 <% } else if (request.getAttribute("clients") != null) { %>
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th>ID</th>
+               
                 <th>Nome</th>
                 <th>Email</th>
                 <th>Actions</th>
@@ -112,17 +117,17 @@
             List<Client> clients = (List<Client>) request.getAttribute("clients");
             for (Client client : clients) { %>
                 <tr>
-                    <td><%= client.getId() %></td>
+                    
                     <td><%= client.getNome() %></td>
                     <td><%= client.getEmail() %></td>
                     
                     <td>
                         <!-- Pulsante di aggiornamento -->
-                        <a href="updateClient.jsp?id=<%= client.getId() %>" class="btn btn-primary btn-sm">U</a>
+                        <a href="updateClient.jsp?id=<%= client.getEmail() %>" class="btn btn-primary btn-sm">U</a>
                         
                         <!-- Pulsante di eliminazione -->
                         <form action="deleteClient" method="post" style="display:inline;">
-                            <input type="hidden" name="id" value="<%= client.getId() %>">
+                            <input type="hidden" name="id" value="<%= client.getEmail() %>">
                             <button type="submit" class="btn btn-danger btn-sm">X</button>
                         </form>
                     </td>
@@ -131,7 +136,7 @@
         </tbody>
     </table>
      <div class="text-center mt-3">
-        <a href="addFarmaco.jsp" class="btn btn-success btn-lg">Add Clients</a>
+        <a href="addclient.jsp" class="btn btn-success btn-lg">Add Clients</a>
     </div>
 <% } else if (request.getAttribute("orders") != null) {%> 
      
@@ -156,7 +161,7 @@
                         <tr>
                             <td><%= farmaco.getNome() %></td>
                             <td><%= farmaco.getPrezzo() %></td>
-                            <td><%= farmaco.getQuantità() %></td>
+                            <td><%= farmaco.getQuantita() %></td>
                             <td><%= farmaco.calcolaPrezzoTotale() %></td>
                             <td><%= farmaco.getDescrizione() %></td>
                         </tr>

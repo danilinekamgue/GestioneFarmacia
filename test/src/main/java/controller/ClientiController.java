@@ -44,7 +44,7 @@ public class ClientiController extends HttpServlet{
         conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
 
         // Preparazione della query
-        String query = "SELECT * FROM clients";
+        String query = "SELECT * FROM users";
         stmt = conn.prepareStatement(query);
 
         // Esecuzione della query
@@ -54,7 +54,7 @@ public class ClientiController extends HttpServlet{
         List<Client> clients = new ArrayList<>();
         while (rs.next()) {
             // Aggiungi ogni cliente alla lista
-            clients.add(new Client(rs.getInt("id"), rs.getString("nome"), rs.getString("email")));
+            clients.add(new Client(rs.getString("nome"), rs.getString("email")));
             System.out.println(clients);
         }
 

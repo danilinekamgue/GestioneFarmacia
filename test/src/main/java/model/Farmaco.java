@@ -7,16 +7,20 @@ public class Farmaco {
 	private int id;
 	private String nome;
 	private String descrizione;
-	private int quantità;
+	private int quantita;
 	private int prezzo;
 	
-	public Farmaco(int id, String nome, String descrizione,int quantità,int prezzo) {
+	public Farmaco(int id, String nome, String descrizione,int quantita,int prezzo) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.descrizione = descrizione;
-		this.quantità = quantità;
+		this.quantita = quantita;
 		this.prezzo = prezzo;
+	}
+	public Farmaco() {
+		super();
+		
 	}
 	public int getId() {
 		return id;
@@ -36,11 +40,11 @@ public class Farmaco {
 	public void setDescrizione(String descrizione) {
 		this.descrizione = descrizione;
 	}
-	public int getQuantità() {
-		return quantità;
+	public int getQuantita() {
+		return quantita;
 	}
-	public void setQuantità(int quantità) {
-		this.quantità = quantità;
+	public void setQuantita(int quantita) {
+		this.quantita = quantita;
 	}
 	public int getPrezzo() {
 		return prezzo;
@@ -50,11 +54,11 @@ public class Farmaco {
 	}
 	
 	public double calcolaPrezzoTotale() {
-	    return prezzo * quantità;
+	    return prezzo * quantita;
 	}
 	@Override
 	public String toString() {
-		return "Farmaco [id=" + id + ", nome=" + nome + ", descrizione=" + descrizione + ", quantità=" + quantità
+		return "Farmaco [id=" + id + ", nome=" + nome + ", descrizione=" + descrizione + ", quantità=" + quantita
 				+ ", prezzo=" + prezzo + "]";
 	}
 	
