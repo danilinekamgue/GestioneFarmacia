@@ -3,30 +3,37 @@
 <script type="text/javascript" src="/test/script/add-carello.js"></script>
 <body>
 <%@ page import="java.util.*,model.*"  %>
-<h2 class="bg-warning">FARMACIA DANIELLA</h2>
+
+<div class="pos-f-t">
+  <nav class="py-3 navbar-success bg-success">
+    <h5 class="text-center b">Benvenuti alla FARMACIA DANIELLA</h5>
+  </nav>
+</div>
 
 
-<div class="container-fluid">
+
+
+<div class="container-fluid mt-5">
     <div class="row">
-        <div class="col-9">
+        <div class="col-6">
             <h5 class="text-center my-4">LISTA DEI FARMACI DISPONIBILE</h5>
-            <table class="table">
+            <table class="table table-bordered">
                 <thead>
                   <tr>
                     <th width="30%">Nome</th>
-                    <th width="60%">Descrizione</th>
-                    <th width="10%">Prezzo</th>
+                    <th width="55%">Descrizione</th>
+                    <th width="15%">Prezzo(Euro)</th>
                   </tr>
                 </thead>
               <%
-                  ArrayList<FarmacoModel> formaci=(ArrayList<FarmacoModel>) request.getAttribute("farmaci");
+                  ArrayList<Farmaco> formaci=(ArrayList<Farmaco>) request.getAttribute("farmaci");
                   if(formaci != null){
-                    for (FarmacoModel post: formaci) {
+                    for (Farmaco post: formaci) {
               %>
                 <tr>
                   <td><%=post.getNome()%></td>
-                  <td><%=post.getId()%></td>
-                  <td><%=post.getId()%></td>
+                  <td><%=post.getDescrizione()%></td>
+                  <td><%=post.getPrezzo()%></td>
                 </tr>
               <% }} %>
                   <%
@@ -37,37 +44,40 @@
             </table>
         </div>
 
-        <div class="col-3">
+        <div class="col-6">
             <div class="container-fluid">
-                <h5 class="text-center p-4">LOGIN</h5>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-6">
+                        <h5 class="text-center p-4"> <strong>LOGIN</strong></h5>
+                          <%
+                            if(session.getAttribute("errorMessage") != null){
+                          %>
+                             <p class="text-danger text-center"> <%= session.getAttribute("errorMessage") %> </p>
+                             <% session.setAttribute("errorMessage", null); %>
+                          <% } %>
+                        <form action="login" method="POST">
+                          <!-- Email input -->
+                          <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="email" name="email" id="form2Example1" class="form-control" />
+                            <label class="form-label" for="form2Example1">Email address</label>
+                          </div>
 
-                  <%
-                    if(session.getAttribute("errorMessage") != null){
-                  %>
-                     <p class="text-danger text-center"> <%= session.getAttribute("errorMessage") %> </p>
-                     <% session.setAttribute("errorMessage", null); %>
-                  <% } %>
-                <form action="login" method="POST">
-                  <!-- Email input -->
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="email" name="email" id="form2Example1" class="form-control" />
-                    <label class="form-label" for="form2Example1">Email address</label>
-                  </div>
+                          <!-- Password input -->
+                          <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="password" name="password" id="form2Example2" class="form-control" />
+                            <label class="form-label" for="form2Example2">Password</label>
+                          </div>
 
-                  <!-- Password input -->
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="password" name="password" id="form2Example2" class="form-control" />
-                    <label class="form-label" for="form2Example2">Password</label>
-                  </div>
+                          <!-- Submit button -->
+                          <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
 
-                  <!-- Submit button -->
-                  <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
+                          <div>
+                            <p class="text-center"> You forgot your password or you do not have an account? Contact the admin </p>
+                          </div>
 
-                  <div>
-                    <p class="text-center"> You forgot your password or you do not have an account? Contact the admin </p>
-                  </div>
-
-                </form>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

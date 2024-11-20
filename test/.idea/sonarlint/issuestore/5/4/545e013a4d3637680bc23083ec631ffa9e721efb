@@ -1,12 +1,14 @@
 
-~	java:S125"<This block of commented-out lines of code should be removed.(Êû£Â8›ú®´2J$e28652f4-7dad-46f0-85b3-7a045db027f4
-~
-java:S1989L"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8§à£®´2
+¤
+java:S1989 "aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8Á¶¼Ğ´2J$54a45082-91d1-4071-8525-52c8bb958102
+r	java:S1067"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8âÎ¾Ğ´2J$8e8c0784-17b3-4fcc-96df-96d81d164ed1
 t
-java:S1128",Remove this unused import 'config.DbConfig'.(œÒ¯öşÿÿÿÿ8íÿ¡®´2J$41ec4253-72e0-45b6-8fc4-fae7af3d54fd
+java:S1128",Remove this unused import 'config.DbConfig'.(œÒ¯öşÿÿÿÿ8ªíÀĞ´2J$931744e3-1d69-4b0a-81e5-b8617aff5dbc
 r
-java:S1128"*Remove this unused import 'config.DbInfo'.(Ä »±ÿÿÿÿÿ8íÿ¡®´2J$e3bd684a-0634-4506-a686-66e43510ecdb
+java:S1128"*Remove this unused import 'config.DbInfo'.(Ä »±ÿÿÿÿÿ8ªíÀĞ´2J$07f172c4-a440-48b1-bb86-a08eea410ae5
+q
+java:S1128"/Remove this unused import 'model.FarmacoModel'.(òß–*8«íÀĞ´2J$3e18ea54-d64d-4f6b-8fe5-7e7cb6f1e838
 s
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8îÿ¡®´2J$5cec6b28-1ea7-4224-bd3a-8bcd565d14e9
-h
-java:S1128"%Remove this unused import 'java.sql'.(´İ…Å8îÿ¡®´2J$d35e7db4-ee3c-447c-a315-87634640fad8
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8«íÀĞ´2J$4f6cbc58-7846-4a0a-abb9-f9c32b3edb66
+x
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8«íÀĞ´2J$6e9a6ea0-358d-4a6e-9bcc-d3791c14c96d

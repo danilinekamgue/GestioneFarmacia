@@ -1,7 +1,9 @@
 package controller;
 
+import Service.SqlConn;
 import config.DbConfig;
 import config.DbInfo;
+import model.Farmaco;
 import model.FarmacoModel;
 
 import javax.servlet.ServletException;
@@ -25,62 +27,33 @@ public class HomeController  extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-       // request.getSession().setAttribute("errorMessage", null);
-/*
-        Connection conn = null;
-        Statement stmt = null;
-        ResultSet rs = null;
-        try {
-
-            // Connexion à la base de données
-            DbInfo db = DbConfig.getDbConfig();
-            Class.forName("com.mysql.cj.jdbc.Driver");
-
-            String getProduct = " SELECT nome, descrizione, quantita, prezzo " +
-                    " FROM farmaci " +
-                    " WHERE quantita > 1 ";
-
-            conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
-            stmt = conn.createStatement();
-            rs = stmt.executeQuery(getProduct);
-            while (rs.next()){
-
-            }
-            if(!rs.next()){
-                stmt.executeUpdate(getProduct);
-            }
-
-            response.sendRedirect(request.getContextPath() + "/");
-
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        } finally {
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (stmt != null) {
-                    stmt.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                System.out.println(e.getMessage());
-            }
-        }
-
- */
 
         request.setAttribute("farmaci", this.getData());
         request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
 
 
-    private List<FarmacoModel> getData(){
-        List<FarmacoModel> farmaci = new ArrayList<>();
-        farmaci.add(new FarmacoModel(1L, "nooo","ndofdf",2, 2, LocalDate.now()));
-        farmaci.add(new FarmacoModel(2L, "nooo","ndofdf",2, 2, LocalDate.now()));
+    private List<Farmaco> getData(){
+
+        String query = "SELECT id, nome, descrizione, quantita, prezzo   FROM farmaci WHERE quantita > 1 " ;
+        List<Farmaco> farmaci = new ArrayList<>();
+        try {
+            SqlConn sql = new SqlConn(query);
+            ResultSet rs = sql.execute();
+
+            while(rs != null && rs.next()){
+                Farmaco farmaco = new Farmaco();
+                farmaco.setId(rs.getInt("id"));
+                farmaco.setNome(rs.getString("nome"));
+                farmaco.setDescrizione(rs.getString("descrizione"));
+                farmaco.setPrezzo(rs.getInt("prezzo"));
+                farmaco.setQuantita(rs.getInt("quantita"));
+                farmaci.add(farmaco);
+            }
+            sql.freeSql();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
 
         return farmaci;
     }
