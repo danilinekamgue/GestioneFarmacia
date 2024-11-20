@@ -1,19 +1,21 @@
 
+…
+java:S2259@"BA "NullPointerException" could be thrown; "role" is nullable here.(î­Ôâ8ÌäÆ´2J$19704c9f-2a75-4582-9e60-1a22839ceec7
 ›
-java:S19897"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8éğà­´2J$8a732163-aaf0-4723-bc48-00c19b646aee
-r	java:S106<"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ãğà­´2J$de0f9d75-dbd9-4cd5-8ef8-d207b060389b
+java:S19897"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8éğà­´2J$7882253f-4fa1-4bf3-b819-ddbaa14d0235
+r	java:S106<"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ãğà­´2J$6129163a-9bd1-4d3b-bc79-41fa416fcc38
 –
-java:S1989B"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É×Ãª8‰Üê­´2J$14f95e79-0829-420f-99e0-bbd72d01ad5c
+java:S1989A"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É×Ãª8‰Üê­´2J$bea3867c-b322-40b2-a053-a643618cf688
 ›
-java:S1989G"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8Àé«®´2J$8b9940d9-ba96-4a86-a0a1-37af5842809b
-r	java:S106J"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8Éş§®´2J$51e3c06c-ca1f-4a4c-a104-b73c2e6daa3a
-ƒ	java:S125K"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8Èş§®´2J$c8e1c112-133b-477b-ba07-aad856842eef
-r	java:S106S"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8ó¥®®´2J$a88cabf2-fa89-42c8-a755-32e4366e3f97
+java:S1989E"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8Àé«®´2J$ba6ffa26-421d-4143-91da-321d3622f172
+r	java:S106H"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8Éş§®´2J$591b63dd-0a42-4d32-8924-9d34240e47a9
+ƒ	java:S125I"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8Èş§®´2J$dc678230-0b23-4109-b9d9-743ccaa9a719
+r	java:S106Q"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8ó¥®®´2J$036bf498-4b1a-4b1c-997c-278ca451c0e7
 
-java:S2441W"MMake "List" and its parameters serializable or don't store it in the session.(Â‘Ñº8Ëş§®´2J$a91a0723-a6a3-4911-af6c-87d3c99246a1
-~	java:S125T"<This block of commented-out lines of code should be removed.(º¨“´8Ìş§®´2J$affedd40-579f-488c-84e5-96d01856a462
+java:S2441U"MMake "List" and its parameters serializable or don't store it in the session.(Â‘Ñº8Ëş§®´2J$d9ed71f6-974e-4037-9777-ee7de74cd3fa
+~	java:S125R"<This block of commented-out lines of code should be removed.(º¨“´8Ìş§®´2J$09bce677-b67f-43ef-8638-e2655bb818d9
 ›
-java:S1989X"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8âı«®´2J$93c9cc0b-f596-431e-92ea-e8ffdead8f24
-~	java:S125Y"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8éğà­´2J$4ba953fe-ba31-45d7-ace8-3b879c97cf2c
+java:S1989V"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8âı«®´2J$34836e4e-fd33-481f-8168-a0c70daf5b1c
+~	java:S125W"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8éğà­´2J$d7809ddb-847b-497b-9f76-f80d759db4c7
 ¤
-java:S1989_"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$bddcb0b4-b76d-4ae9-8140-a67ec64e5661
+java:S1989]"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$109f06c4-b678-4f12-9641-801f0e5c0762
