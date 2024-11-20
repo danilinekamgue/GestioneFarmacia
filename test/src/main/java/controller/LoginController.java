@@ -65,9 +65,7 @@ public class LoginController extends HttpServlet {
             response.sendRedirect(request.getContextPath() + "/jsp/admin.jsp");
             return;
         }
-        else{
-            response.sendRedirect(request.getContextPath() + "/client/client.jsp");
-        }
+
         // IF LOGIN IS GOOD, REDIRECT TO ADMIN PAGE OR CLIENT PAGE
         System.out.println("Home controlllll");
         // request.getRequestDispatcher("/jsp/admin.jsp").forward(request, response);
@@ -85,6 +83,7 @@ public class LoginController extends HttpServlet {
         session.setAttribute("farmaci", farmaci);
         response.sendRedirect(request.getContextPath() + "/client/client.jsp");
        // response.sendRedirect(request.getContextPath() + "/jsp/admin.jsp");
+        return;
     }
 
     @Override

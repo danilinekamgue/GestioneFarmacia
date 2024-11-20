@@ -22,7 +22,7 @@ public class ClientSecuFilter implements Filter {
         if( session.getAttribute("isLogged") == null ||
                 !session.getAttribute("isLogged").equals(true) ||
                 session.getAttribute("role") == null ||
-                !session.getAttribute("role").equals("cliente") ){
+                !session.getAttribute("role").equals("client") ){
             response.sendRedirect(request.getContextPath() + "/");
             filterChain.doFilter(servletRequest, servletResponse);
             return;
