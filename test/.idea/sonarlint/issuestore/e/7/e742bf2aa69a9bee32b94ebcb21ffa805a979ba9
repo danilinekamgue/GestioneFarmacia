@@ -1,7 +1,9 @@
 
-Qjavascript:S3504")Unexpected var, use let or const instead.(¼™¢Ïúÿÿÿÿ8òıø³2
-[javascript:S1481"8Remove the declaration of the unused 'formRef' variable.(š®¼ÿ8óıø³2
-Xjavascript:S1854"5Remove this useless assignment to variable "formRef".(š®¼ÿ8õıø³2
-tjavascript:S4138"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ş§™üüÿÿÿÿ8öıø³2
->javascript:S3626"Remove this redundant jump.(ûÁİ…8øıø³2
-tjavascript:S4138 "LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ş§™üüÿÿÿÿ8ùıø³2
+wjavascript:S3504")Unexpected var, use let or const instead.(¼™¢Ïúÿÿÿÿ8òıø³2J$4ce48d5b-abc0-45a1-8e25-545afc5fb33c
+javascript:S1481"8Remove the declaration of the unused 'formRef' variable.(š®¼ÿ8óıø³2J$7b6a6c33-79ca-4d5a-9c6a-d85406085645
+~javascript:S1854"5Remove this useless assignment to variable "formRef".(š®¼ÿ8õıø³2J$10586db2-e388-4e39-b28f-93a71cd14847
+šjavascript:S4138"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ş§™üüÿÿÿÿ8öıø³2J$7344c4cf-2476-4ebc-8315-2d474d83035f
+djavascript:S3626"Remove this redundant jump.(ûÁİ…8øıø³2J$e5c4681e-4b5e-4736-bc28-ccbd1ca6903a
+šjavascript:S4138 "LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ş§™üüÿÿÿÿ8ùıø³2J$2e3b0b01-d133-4059-b82a-de9a7dd8e865
+ljavascript:S1251"Remove this commented out code.(ëÜ„¥øÿÿÿÿ8ÉÈÔÖ´2J$1413df3e-a55b-4101-b45d-55891d4c9974
+ljavascript:S125E"Remove this commented out code.(¥ÜÄóùÿÿÿÿ8àÖÔ´2J$0d2eed03-7f5d-4dec-8949-1a66b710f2f6

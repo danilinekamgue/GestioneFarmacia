@@ -6,11 +6,11 @@ function prepareOrdine(){
 
 }
 
-function addCarello(id, nome, descrizione, prezzo){
+function addCarello(id, nome, prezzo){
     if(existsIdInTable(id)){
        return;
     }
-    addRow(id, nome, descrizione, prezzo);
+    addRow(id, nome, prezzo);
 }
 
 function removeRow(id) {
@@ -37,7 +37,7 @@ function existsIdInTable(id) {
   return false;
 }
 
-function addRow(id, nome, descrizione, prezzo) {
+function addRow(id, nome, prezzo) {
   // Get a reference to the table
   let ordineRef = document.getElementById(ordineForm);
   if(ordineRef == null) return;
@@ -45,18 +45,17 @@ function addRow(id, nome, descrizione, prezzo) {
   let newRow = document.createElement("div");
   newRow.classList.add("row");
   newRow.id = id;
-
   let col1 = createDivCol(nome, true);
-  let col2 = createDivCol(descrizione, true);
+  //let col2 = createDivCol(descrizione, true);
   let col3 = createDivCol(prezzo, true);
 
   let quantitaInput = document.createElement("input");
   quantitaInput.type = "number";
   quantitaInput.classList.add("form-control");
-  quantitaInput.value = 1;
+  quantitaInput.value = 2;
   quantitaInput.min = 1;
   quantitaInput.name = id;
-  let col4 = createDivCol(quantitaInput);
+  let col4 = createDivCol(quantitaInput, false);
 
   let removeButton =  document.createElement("button");
   removeButton.onclick = removeRow(id)
@@ -64,10 +63,10 @@ function addRow(id, nome, descrizione, prezzo) {
   removeButton.classList.add("btn")
   removeButton.classList.add("btn-danger");
   removeButton.appendChild(textButton);
-  let col5 = createDivCol(removeButton);
+  let col5 = createDivCol(removeButton, false);
 
   newRow.appendChild(col1);
-  newRow.appendChild(col2);
+//  newRow.appendChild(col2);
   newRow.appendChild(col3);
   newRow.appendChild(col4);
   newRow.appendChild(col5);

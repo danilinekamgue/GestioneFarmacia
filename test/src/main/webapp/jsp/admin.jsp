@@ -39,7 +39,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <form action="logout" method="post" style="display: inline;">
+                    <form action="do.logout" method="post" style="display: inline;">
                         <button type="submit" class="btn btn-outline-light btn-sm">Logout</button>
                     </form>
                 </li>

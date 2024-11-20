@@ -1,14 +1,4 @@
 
 ¤
-java:S1989 "aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8Á¶¼Ð´2J$54a45082-91d1-4071-8525-52c8bb958102
-r	java:S1067"+Replace this use of System.out by a logger.(©þêÜúÿÿÿÿ8âÎ¾Ð´2J$8e8c0784-17b3-4fcc-96df-96d81d164ed1
-t
-java:S1128",Remove this unused import 'config.DbConfig'.(œÒ¯öþÿÿÿÿ8ªíÀÐ´2J$931744e3-1d69-4b0a-81e5-b8617aff5dbc
-r
-java:S1128"*Remove this unused import 'config.DbInfo'.(Ä »±ÿÿÿÿÿ8ªíÀÐ´2J$07f172c4-a440-48b1-bb86-a08eea410ae5
-q
-java:S1128"/Remove this unused import 'model.FarmacoModel'.(òß–*8«íÀÐ´2J$3e18ea54-d64d-4f6b-8fe5-7e7cb6f1e838
-s
-java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓÞÏÛ8«íÀÐ´2J$4f6cbc58-7846-4a0a-abb9-f9c32b3edb66
-x
-java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8«íÀÐ´2J$6e9a6ea0-358d-4a6e-9bcc-d3791c14c96d
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8Á¶¼Ð´2J$96a8b928-a410-4b52-9997-7da9f57494fa
+r	java:S1062"+Replace this use of System.out by a logger.(©þêÜúÿÿÿÿ8âÎ¾Ð´2J$fee7c10b-f361-4d85-a7cd-e84256c85bc2

@@ -31,10 +31,6 @@ U
 +src/main/java/controller/Registrazione.java,f\0\f06451aa2fcdf277c30f18263c6b70dd65833696
 M
 src/main/webapp/bootstrap.jsp,6\9\69dcb4af1871563e2ab7de81ab9b617f0ad876ba
-H
-src/main/webapp/secu.jsp,a\6\a687f9ec85b9efaa08414dc7b46b8da22b5ebaa5
-X
-(src/main/java/controller/SecuFilter.java,e\5\e5ed5860b542e6d9e12a7cd6164de37cbf757d74
 Q
 !src/main/webapp/client/client.jsp,d\d\dd19d20ccacdf0b629388eb950aec85705968e9b
 ]
@@ -67,19 +63,15 @@ J
 src/main/webapp/initdb.jsp,2\7\273cb8fc0e1c562675c29f767a1bf4d64150040b
 _
 /src/main/java/controller/FarmaciController.java,b\6\b6f86c57078ad384d482d527a0b00d6a7aa9d37d
-Y
-)src/main/java/Service/FarmacoService.java,b\c\bc151f102b4559e49a7d3f4777258b7d284c698f
-V
-&src/main/java/Service/SqlExecutor.java,d\7\d764321f67162db27d6c164c291ffcf2541c646e
 R
 "src/main/java/Service/SqlConn.java,2\d\2d70746b46deb3cd7ac97880d7d651de779c1269
 ^
 .src/main/java/controller/LogoutController.java,f\6\f695ff6faa2626dbca0f6fe445caf86e84796e04
 O
 src/main/java/model/Client.java,b\f\bfded7b637e777f50fe8fcb194e9f89da888e4db
-[
-+src/main/java/controller/LogoutServlet.java,e\4\e40158b5b9553948b3910c6bec103c6bc1d8525c
 W
 'src/main/java/controller/AddClient.java,e\6\e661de07d8039e241484dd7dfa9af14d3d8fbcb6
 M
 src/main/webapp/addclient.jsp,8\3\83ab91ec43836834e5148d110d1a674f840ddec5
+P
+ src/main/java/model/Farmaco.java,5\a\5a2658f7985561ef1d6c30b51e7ad1927779f8c0

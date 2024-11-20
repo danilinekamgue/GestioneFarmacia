@@ -4,7 +4,6 @@ import Service.SqlConn;
 import config.DbConfig;
 import config.DbInfo;
 import model.Farmaco;
-import model.FarmacoModel;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,7 +17,6 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
