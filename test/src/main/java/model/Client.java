@@ -10,8 +10,13 @@ public class Client {
 		super();
 		this.email = email;
 		this.nome = nome;
-		
+	}
+	public Client(String email, String nome, String role, String password) {
+		super();
+		this.email = email;
+		this.nome = nome;
 		this.role = role;
+		this.password = password;
 	}
 	public String getEmail() {
 		return email;

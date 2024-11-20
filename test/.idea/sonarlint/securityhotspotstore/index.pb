@@ -77,3 +77,9 @@ R
 .src/main/java/controller/LogoutController.java,f\6\f695ff6faa2626dbca0f6fe445caf86e84796e04
 O
 src/main/java/model/Client.java,b\f\bfded7b637e777f50fe8fcb194e9f89da888e4db
+[
++src/main/java/controller/LogoutServlet.java,e\4\e40158b5b9553948b3910c6bec103c6bc1d8525c
+W
+'src/main/java/controller/AddClient.java,e\6\e661de07d8039e241484dd7dfa9af14d3d8fbcb6
+M
+src/main/webapp/addclient.jsp,8\3\83ab91ec43836834e5148d110d1a674f840ddec5

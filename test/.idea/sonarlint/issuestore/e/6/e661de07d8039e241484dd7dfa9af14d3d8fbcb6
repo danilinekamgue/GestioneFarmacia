@@ -1,0 +1,15 @@
+
+„
+java:S11925"HDefine a constant instead of duplicating this literal "message" 3 times.(–¦Œ‚J$b3039a17-83f5-42e9-8209-397c72af13fa
+l
+java:S2095-"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‚¹ó½8±ï×É´2
+e
+java:S2095+"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8±ï×É´2
+h
+java:S1481 "'Remove this unused "rs" local variable.(ÀÇÄûÿÿÿÿJ$4df6a3b2-2dc8-43b3-bd48-7bba41bde047
+m	java:S106%"+Replace this use of System.out by a logger.(ÔË«Ô8ºÔ¼É´2J$7076debc-3c88-4818-9f87-6bd1ace79933
+r	java:S106&"+Replace this use of System.out by a logger.(î¸ıÿÿÿÿ8¥Â½É´2J$125abd77-30e4-4b10-a155-e636f6d430c3
+r	java:S106'"+Replace this use of System.out by a logger.(Ï±Èÿşÿÿÿÿ8«ü½É´2J$f6ff4e5f-3920-4743-968f-d1447a42e3ca
+m	java:S106("+Replace this use of System.out by a logger.(ÔË«Ô8¨’ÁÉ´2J$e3ba01ba-0fbc-4ffd-9ae4-598927f8ecc9
+”
+java:S1989?"SHandle the following exception that could be thrown by "sendRedirect": IOException.(®ş¡ÔøÿÿÿÿJ$be2649fb-fdb8-4ad2-86b1-4c1c8d769937

@@ -24,7 +24,6 @@ public class AddClient  extends  HttpServlet{
 	            throws ServletException, IOException {
 	        String nome = request.getParameter("nome");
 	        String email = request.getParameter("email");
-	        String password = request.getParameter("password");
 	        String role = request.getParameter("role");
 	        
 	        
@@ -35,6 +34,10 @@ public class AddClient  extends  HttpServlet{
 	        try  {
 	        	
 	        	DbInfo db = DbConfig.getDbConfig();
+				System.out.println("nome-----------");
+				System.out.println(email);
+				System.out.println(role);
+				System.out.println("nome-----------");
 
 	            Class.forName("com.mysql.cj.jdbc.Driver");
 	            conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
@@ -42,7 +45,7 @@ public class AddClient  extends  HttpServlet{
 	            stmt = conn.prepareStatement(sql);
 	            stmt.setString(1, nome);
 	            stmt.setString(2, email);
-	            stmt.setString(3,password);
+	            stmt.setString(3, email);
 	            stmt.setString(4, role);
 
 	            int rowsInserted = stmt.executeUpdate();

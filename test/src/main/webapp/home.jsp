@@ -106,9 +106,10 @@
     <table class="table table-bordered">
         <thead>
             <tr>
-               
                 <th>Nome</th>
                 <th>Email</th>
+                <th>Role</th>
+                <th>Password</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -117,10 +118,10 @@
             List<Client> clients = (List<Client>) request.getAttribute("clients");
             for (Client client : clients) { %>
                 <tr>
-                    
                     <td><%= client.getNome() %></td>
                     <td><%= client.getEmail() %></td>
-                    
+                    <td><%= client.getRole() %></td>
+                    <td><%= client.getPassword() %></td>
                     <td>
                         <!-- Pulsante di aggiornamento -->
                         <a href="updateClient.jsp?id=<%= client.getEmail() %>" class="btn btn-primary btn-sm">U</a>
