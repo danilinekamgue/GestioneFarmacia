@@ -75,3 +75,5 @@ R
 "src/main/java/Service/SqlConn.java,2\d\2d70746b46deb3cd7ac97880d7d651de779c1269
 ^
 .src/main/java/controller/LogoutController.java,f\6\f695ff6faa2626dbca0f6fe445caf86e84796e04
+O
+src/main/java/model/Client.java,b\f\bfded7b637e777f50fe8fcb194e9f89da888e4db

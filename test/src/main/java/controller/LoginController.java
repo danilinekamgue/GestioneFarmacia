@@ -32,7 +32,7 @@ public class LoginController extends HttpServlet {
         HttpSession session = request.getSession();
 
 
-        String role = "cliente";
+        String role = null;
 
         String query = "SELECT nome, role  " +
                 " FROM users" +
@@ -62,12 +62,10 @@ public class LoginController extends HttpServlet {
 
 
         if(role.equals("admin")){
-
             response.sendRedirect(request.getContextPath() + "/jsp/admin.jsp");
             return;
         }
         else{
-
             response.sendRedirect(request.getContextPath() + "/client/client.jsp");
         }
         // IF LOGIN IS GOOD, REDIRECT TO ADMIN PAGE OR CLIENT PAGE

@@ -1,0 +1,5 @@
+
+}
+java:S4165"bRemove this useless assignment; "role" already holds the assigned value along all execution paths.(‚±×øÿÿÿÿ
+J
+java:S1656"/Remove or correct this useless self-assignment.(‚±×øÿÿÿÿ
