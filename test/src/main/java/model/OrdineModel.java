@@ -8,7 +8,7 @@ public class OrdineModel {
     private String numero;
 
     private LocalDateTime time;
-    private List<FarmacoModel> farmaci;
+    private List<Farmaco> farmaci;
     private int prezzototale;
 
 
@@ -30,11 +30,11 @@ public class OrdineModel {
         this.time = time;
     }
 
-    public List<FarmacoModel> getFarmaci() {
+    public List<Farmaco> getFarmaci() {
         return farmaci;
     }
 
-    public void setFarmaci(List<FarmacoModel> farmaci) {
+    public void setFarmaci(List<Farmaco> farmaci) {
         this.farmaci = farmaci;
     }
 

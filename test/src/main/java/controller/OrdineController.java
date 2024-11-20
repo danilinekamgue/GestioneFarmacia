@@ -1,6 +1,6 @@
 package controller;
 
-import model.FarmacoModel;
+import model.Farmaco;
 import model.OrdineModel;
 
 import javax.servlet.ServletException;
@@ -51,9 +51,9 @@ public class OrdineController   extends HttpServlet {
     private List<OrdineModel> getOrdiniByEmail(String email){
 
         List<OrdineModel> ordini = new ArrayList<>();
-        List<FarmacoModel> farmaci = new ArrayList<>();
-        farmaci.add(new FarmacoModel(1L, "nooo","ndofdf",2, 2, LocalDate.now()));
-        farmaci.add(new FarmacoModel(2L, "nooo","ndofdf",2, 2, LocalDate.now()));
+        List<Farmaco> farmaci = new ArrayList<>();
+        farmaci.add(new Farmaco(1, "nooo","ndofdf",2, 2, LocalDate.now()));
+        farmaci.add(new Farmaco(2, "nooo","ndofdf",2, 2, LocalDate.now()));
 
         OrdineModel o1 = new OrdineModel();
         OrdineModel o2 = new OrdineModel();
@@ -68,9 +68,9 @@ public class OrdineController   extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        List<FarmacoModel> farmaci = new ArrayList<>();
-        farmaci.add(new FarmacoModel(1L, "nooo","ndofdf",2, 2, LocalDate.now()));
-        farmaci.add(new FarmacoModel(2L, "nooo","ndofdf",2, 2, LocalDate.now()));
+        List<Farmaco> farmaci = new ArrayList<>();
+        farmaci.add(new Farmaco(1, "nooo","ndofdf",2, 2, LocalDate.now()));
+        farmaci.add(new Farmaco(2, "nooo","ndofdf",2, 2, LocalDate.now()));
 
         System.out.println("je suis cicici " + farmaci.size());
         request.setAttribute("farmaci", farmaci);

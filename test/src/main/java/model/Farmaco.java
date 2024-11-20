@@ -1,6 +1,7 @@
 package model;
 
 import java.sql.Date;
+import java.time.LocalDate;
 
 public class Farmaco {
 	
@@ -9,6 +10,8 @@ public class Farmaco {
 	private String descrizione;
 	private int quantita;
 	private int prezzo;
+
+	private LocalDate date;
 	
 	public Farmaco(int id, String nome, String descrizione,int quantita,int prezzo) {
 		super();
@@ -18,6 +21,17 @@ public class Farmaco {
 		this.quantita = quantita;
 		this.prezzo = prezzo;
 	}
+
+	public Farmaco(int id, String nome, String descrizione,int quantita,int prezzo, LocalDate date) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.descrizione = descrizione;
+		this.quantita = quantita;
+		this.prezzo = prezzo;
+		this.date = date;
+	}
+
 	public Farmaco() {
 		super();
 		

@@ -1,15 +1,15 @@
 
 
-java:S11927"GDefine a constant instead of duplicating this literal "ndofdf" 4 times.(óÁûÿÿÿÿ8üÙ£Ÿ´2J$b8f4e451-a705-49d5-a51f-f36c5a21aa78
-r	java:S106$"+Replace this use of System.out by a logger.(Ã¸¬¤ùÿÿÿÿ8Ú£Ÿ´2J$7e175d90-33a2-41ae-b5a7-b0dad2b1eb9c
-ƒ	java:S125%"<This block of commented-out lines of code should be removed.(Ô»ì­üÿÿÿÿ8Ú£Ÿ´2J$f0680a63-1785-4dd6-979c-62bfa933c913
-•
-java:S2441+"MMake "List" and its parameters serializable or don't store it in the session.(Óö¥Ìşÿÿÿÿ8ÃÚÜ§´2J$495493fa-e313-41d5-b1f3-d1b2e8bac8a7
-›
-java:S1989."SHandle the following exception that could be thrown by "sendRedirect": IOException.(É·É÷øÿÿÿÿ8Ú£Ÿ´2J$88f64a10-44f5-4726-9484-8be54522c8fd
-~	java:S125/"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8Ú£Ÿ´2J$79abfef8-1598-4f2c-b36c-d1899725a4cb
+java:S11927"GDefine a constant instead of duplicating this literal "ndofdf" 4 times.(ÔøÌÚúÿÿÿÿ8üÙ£Ÿ´2J$3b28b6ad-7c9e-4086-90dd-e3e72d2095ae
+r	java:S106$"+Replace this use of System.out by a logger.(Ã¸¬¤ùÿÿÿÿ8Ú£Ÿ´2J$0ed53a94-be48-42ee-984e-c8ea6db7cb49
+ƒ	java:S125%"<This block of commented-out lines of code should be removed.(Ô»ì­üÿÿÿÿ8Ú£Ÿ´2J$40240a56-0bed-44cc-a00d-9bbaa136b1f2
 o
-java:S11723",Remove this unused method parameter "email".(ãØ¡œ8’Ú£Ÿ´2J$0ad7d86e-5cb4-478d-908f-c1247e2166ca
-r	java:S106K"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8—Ú£Ÿ´2J$e27a7823-b0d6-4abe-97ec-d36e9b1df956
+java:S2441+"MMake "List" and its parameters serializable or don't store it in the session.(Óö¥Ìşÿÿÿÿ8çñ¡Ö´2
+›
+java:S1989."SHandle the following exception that could be thrown by "sendRedirect": IOException.(É·É÷øÿÿÿÿ8Ú£Ÿ´2J$8d376123-e29c-4257-9d85-23a7a68a51dd
+~	java:S125/"<This block of commented-out lines of code should be removed.(Ÿ®ßÕ8Ú£Ÿ´2J$d188864f-ec0f-47e8-8789-0e201166e748
+o
+java:S11723",Remove this unused method parameter "email".(ãØ¡œ8’Ú£Ÿ´2J$c25e6b37-767c-433a-9a1b-03a730806a67
+r	java:S106K"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8—Ú£Ÿ´2J$25d83362-8768-46ad-9e98-43f0f828d0f9
 ¤
-java:S1989N"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8—Ú£Ÿ´2J$0b31d62a-fedb-475e-80fe-e20911daa876
+java:S1989N"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(´íÍè8—Ú£Ÿ´2J$82ad7736-747b-4b92-a578-f349e0fe0487

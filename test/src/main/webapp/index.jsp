@@ -32,12 +32,7 @@
               %>
                 <tr>
                   <td><%=post.getNome()%></td>
-<<<<<<< HEAD
                   <td><%=post.getDescrizione()%></td>
-=======
-                  <td><%=post.getId()%></td>
-                 
->>>>>>> 6d1a340bb62d67d58f719457afce5567338012d3
                   <td><%=post.getPrezzo()%></td>
                 </tr>
               <% }} %>
