@@ -18,6 +18,10 @@ public class Client {
 		this.role = role;
 		this.password = password;
 	}
+	
+	public Client() {
+		
+	}
 	public String getEmail() {
 		return email;
 	}
@@ -41,6 +45,10 @@ public class Client {
 	}
 	public void setRole(String role) {
 		this.role = role;
+	}
+	@Override
+	public String toString() {
+		return "Client [email=" + email + ", nome=" + nome + ", password=" + password + ", role=" + role + "]";
 	}
 	
    

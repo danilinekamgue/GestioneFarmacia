@@ -17,7 +17,7 @@ import config.DbInfo;
 import model.Farmaco;
 
 @WebServlet ("/updateFarmaco")
-public class UpdatePharmaController extends HttpServlet {
+public class UpdateFarmacoController extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
 
