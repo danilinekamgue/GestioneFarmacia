@@ -13,8 +13,6 @@ R
 "src/main/java/controller/Test.java,8\e\8ea0c5b61594dd18f7c4904b97080b7e274e1eff
 \
 ,src/main/java/controller/HomeController.java,5\4\545e013a4d3637680bc23083ec631ffa9e721efb
-U
-%src/main/java/model/FarmacoModel.java,8\8\8869e92e13bc205de2c9f5a6bcec8ac3005af642
 M
 src/main/webapp/jsp/login.jsp,a\f\af55eee015fec33e99bf54ec2d8713a26133aad7
 ]
@@ -25,8 +23,6 @@ V
 &src/main/webapp/jsp/cliente-ordine.jsp,d\6\d64fe7ec0b789f79dd216545067cd7f920a03d01
 U
 %src/main/webapp/script/add-carello.js,e\7\e742bf2aa69a9bee32b94ebcb21ffa805a979ba9
-^
-.src/main/java/controller/OrdineController.java,9\e\9e3b71037c5d0f9e220bca64dc8e1f88be75906f
 [
 +src/main/java/controller/Registrazione.java,f\0\f06451aa2fcdf277c30f18263c6b70dd65833696
 M
@@ -39,8 +35,6 @@ Q
 .src/main/java/controller/ClientSecuFilter.java,b\3\b3353128acdbd2eb21e0d676dfcbb4032baf1e6a
 _
 /src/main/java/controller/ClientiController.java,4\8\48fc92a54e699972a3c2f0a0f31df4205e3d8214
-Q
-!src/main/webapp/client/ordine.jsp,7\2\726868ef97109fa89f0ff32348a6343f5ad23059
 T
 $src/main/java/model/OrdineModel.java,3\7\3722a8a901e1d0437e8cf8ece212aed18bbedd23
 L
@@ -75,3 +69,9 @@ M
 src/main/webapp/addclient.jsp,8\3\83ab91ec43836834e5148d110d1a674f840ddec5
 P
  src/main/java/model/Farmaco.java,5\a\5a2658f7985561ef1d6c30b51e7ad1927779f8c0
+e
+5src/main/java/controller/OrdiniClienteController.java,9\5\953c990c70433f6caf2039b8ba6da5949806c184
+Y
+)src/main/webapp/client/ordini-cliente.jsp,d\5\d57935ffd3e92eb3413ce87ed41e03c75ba8047b
+X
+(src/main/webapp/client/header-client.jsp,e\3\e398692c6d73241a1107831f04c3245a632278f2

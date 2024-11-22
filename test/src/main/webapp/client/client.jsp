@@ -7,15 +7,7 @@
 <%@ page import="java.util.*,model.*"  %>
 <%@ page import="model.Farmaco" %>
 
-<nav class="navbar navbar-success bg-success">
-  <h5 class="navbar-brand">Benvenuto <%= session.getAttribute("email")  %> ! </h5>
-  <form action="do.logout" method="POST" class="form-inline my-2 my-lg-0">
-    <button class="btn btn-danger my-2 my-sm-0" type="submit" >
-     <i class="fas fa-sign-out-alt"></i> Logout
-    </button>
-  </form>
-</nav>
-
+<jsp:include page="header-client.jsp" />
 
 
 <div class="container-fluid mt-5">
@@ -59,25 +51,27 @@
         </div>
 
         <div class="col-md-5">
-            <div class="container-fluid bg-success">
-                <h5>ORDINE</h5>
-
-                <form method="POST" action="ordine" id="ordine-form" class="container-fluid">
-                   <div class="row">
-                        <div class="col-2">
-                            <b> HEADER</b>
+            <div class="container-fluid ">
+                <form method="POST" action="ordini-cliente" id="ordine-form" class="container-fluid">
+                   <h5 class="pr-5 mr-5 py-3" ><strong> <u>ORDINE</u></strong></h5>
+                   <% if(session.getAttribute("quantitaErrorMessage")!=null) { %>
+                       <p class="text-danger"> <%= session.getAttribute("quantitaErrorMessage") %> </p>
+                   <% session.setAttribute("quantitaErrorMessage", null); } %>
+                   <button class="btn btn-success" id="valida_ordine" type="submit" onclick="prepareOrdine()">VALIDA ORDINE</button>
+                   <div class="row my-3">
+                        <div class="col-5">
+                            <b> Nome Farmaco</b>
                         </div>
                         <div class="col-2">
-                            <b> HEADER</b>
+                            <b> Prezzo (Euro)</b>
+                        </div>
+                        <div class="col-3">
+                            <b> Quantita Voluta</b>
                         </div>
                         <div class="col-2">
-                            <b> HEADER</b>
-                        </div>
-                        <div class="col-2">
-                            <b> HEADER</b>
+                            <b> Azione</b>
                         </div>
                    </div>
-                   <button id="valida_ordine" type="submit" onclick="prepareOrdine()">VALIDA ORDINE</button>
                 </form>
             </div>
         </div>

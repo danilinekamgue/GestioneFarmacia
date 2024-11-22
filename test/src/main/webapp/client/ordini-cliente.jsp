@@ -1,6 +1,12 @@
 <html>
+
+<%@include file="../bootstrap.jsp" %>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<script type="text/javascript" src="/test/script/add-carello.js"></script>
+
 <%@ page import="java.util.*,model.*"  %>
 <body>
+<jsp:include page="header-client.jsp" />
 
 <h1> ORDINE </h1>
 

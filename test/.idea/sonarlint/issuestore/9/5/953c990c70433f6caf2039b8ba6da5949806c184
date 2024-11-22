@@ -1,0 +1,21 @@
+
+|
+java:S1854 "9Remove this useless assignment to local variable "names".(ÚİÓï8–¼Å¦µ2J$57adcc2c-e2d1-4744-8b47-fbe031f16d9a
+m
+java:S1481 "*Remove this unused "names" local variable.(ÚİÓï8š¼Å¦µ2J$87c0b1f7-4937-40f6-a3d7-c655489054ca
+y
+java:S1481!"1Remove this unused "prezzoTotale" local variable.(ıÓÚüÿÿÿÿ8›¼Å¦µ2J$23bef546-f7f8-4eb0-9f4d-14b135ebf696
+©
+java:S1989)"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(„ìÄøÿÿÿÿ8…’ôˆµ2J$be571938-c9fe-4d96-9a9a-8cb0f91694ef
+r	java:S106E"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Š’ôˆµ2J$65b4d8e1-612c-43db-a4d5-987f163e28a1
+r	java:S106T"+Replace this use of System.out by a logger.(ÚÁùùúÿÿÿÿ8’ôˆµ2J$82784158-0280-4c41-8626-ad93b537e3d6
+©
+java:S1989W"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(„ìÄøÿÿÿÿ8’ôˆµ2J$93346674-2ec5-4e65-bed4-89823c323b90
+t
+java:S1128",Remove this unused import 'config.DbConfig'.(œÒ¯öşÿÿÿÿ8­¼Å¦µ2J$35abbd03-a18a-4856-b0f2-7ae5a2047b85
+r
+java:S1128"*Remove this unused import 'config.DbInfo'.(Ä »±ÿÿÿÿÿ8­¼Å¦µ2J$43ab2d95-5bc0-4d56-864d-51717ba64c65
+~
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8­¼Å¦µ2J$d31a4c4d-3dd0-4f07-ae50-cbb2d179caf3
+x
+java:S1144-"5Remove this unused private "getOrdiniByEmail" method.(ãØ¡œ8¯¼Å¦µ2J$dadaf4fc-56cc-4437-ac73-25ca606c4331
