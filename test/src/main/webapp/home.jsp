@@ -96,7 +96,7 @@
                     
                    
                 </tr>
-            <% } %>
+            <% } %> 
         </tbody>
     </table>
       <div class="text-center mt-3">
@@ -106,8 +106,10 @@
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th>Nome</th>
+            
                 <th>Email</th>
+                <th>Nome</th>
+                
                 <th>Role</th>
                 <th>Password</th>
                 <th>Actions</th>
@@ -118,17 +120,19 @@
             List<Client> clients = (List<Client>) request.getAttribute("clients");
             for (Client client : clients) { %>
                 <tr>
+                
+                     <td><%= client.getEmail() %></td>
                     <td><%= client.getNome() %></td>
-                    <td><%= client.getEmail() %></td>
+                   
                     <td><%= client.getRole() %></td>
                     <td><%= client.getPassword() %></td>
                     <td>
                         <!-- Pulsante di aggiornamento -->
-                        <a href="updateClient.jsp?id=<%= client.getEmail() %>" class="btn btn-primary btn-sm">U</a>
+                        <a href="updateclienti?email=<%= client.getEmail() %>" class="btn btn-primary btn-sm">U</a>
                         
                         <!-- Pulsante di eliminazione -->
-                        <form action="deleteClient" method="post" style="display:inline;">
-                            <input type="hidden" name="id" value="<%= client.getEmail() %>">
+                        <form action="deleteclienti" method="post" style="display:inline;">
+                            <input type="hidden" name="email" value="<%= client.getEmail() %>">
                             <button type="submit" class="btn btn-danger btn-sm">X</button>
                         </form>
                     </td>

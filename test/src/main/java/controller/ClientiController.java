@@ -54,8 +54,8 @@ public class ClientiController extends HttpServlet{
         List<Client> clients = new ArrayList<>();
         while (rs.next()) {
             // Aggiungi ogni cliente alla lista
-            clients.add(new Client(rs.getString("nome"),
-                    rs.getString("email"),
+            clients.add(new Client(rs.getString("email"),
+                    rs.getString("nome"),
                     rs.getString("role"),
                     rs.getString("password")));
             System.out.println(clients);
