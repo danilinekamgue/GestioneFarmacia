@@ -15,9 +15,14 @@
                   if(ordini != null){
                     for (OrdineModel ordine: ordini) {
               %>
-                  <div><%=ordine.getNumero()%></div>
+                  <div>Ordine : <%=ordine.getNumero()%>   </div>
 
-              <% }} %>
+                    <%
+                       for (Farmaco farmaco: ordine.getFarmaci()) {
+                    %>
+                    <div>Ordine : <%=farmaco.getNome()%>   </div>
+
+              <% }}} %>
 
               <%
                     if(ordini == null){

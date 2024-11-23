@@ -1,6 +1,7 @@
 package model;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 public class OrdineModel {
@@ -11,8 +12,9 @@ public class OrdineModel {
     private List<Farmaco> farmaci;
     private int prezzototale;
 
-
-
+    public OrdineModel() {
+        this.farmaci = new ArrayList<>();
+    }
 
     public String getNumero() {
         return numero;
