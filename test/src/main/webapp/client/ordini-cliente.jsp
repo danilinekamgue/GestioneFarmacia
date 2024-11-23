@@ -8,28 +8,44 @@
 <body>
 <jsp:include page="header-client.jsp" />
 
-<h1> ORDINE </h1>
 
+    <div class="container">
+        <div class="row flex d-flex justify-content-center">
+            <div class="col-6">
+                <h5 class="text-center mt-3 pb-3"> LISTA DEGLI ORDINI </h5>
               <%
                   ArrayList<OrdineModel> ordini=(ArrayList<OrdineModel>) session.getAttribute("ordini");
                   if(ordini != null){
                     for (OrdineModel ordine: ordini) {
               %>
-                  <div>Ordine : <%=ordine.getNumero()%>   </div>
+                  <div class="mt-2 p-5 border">
+                      <p>  Ordine <%=ordine.getNumero()%>  Data <%=ordine.getTime()%>  </p>
+                      <h6 class="my-3"> Lista dei prodotti </h6>
+                        <table class="table table-bordered">
+                        <%
+                           for (Farmaco farmaco: ordine.getFarmaci()) {
+                        %>
 
-                    <%
-                       for (Farmaco farmaco: ordine.getFarmaci()) {
-                    %>
-                    <div>Ordine : <%=farmaco.getNome()%>   </div>
+                        <tr>
+                          <td><%=farmaco.getNome()%></td>
+                          <td> x <%=farmaco.getQuantita()%></td>
+                        </tr>
 
-              <% }}} %>
+                        <% } %>
+                        </table>
+                        <h7> <strong> Prezzo totale : <%=ordine.getPrezzototale()%>  Euro </strong></h7>
+                      </div>
+              <% }} %>
 
               <%
-                    if(ordini == null){
-                  %>
+                 if(ordini == null){
+              %>
                     Non ci sono ordini
-                  <% } %>
+              <% } %>
 
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
