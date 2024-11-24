@@ -34,7 +34,7 @@
                     <a class="nav-link" href="/test/clienti">Clienti</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/test/orders">Prenotazioni</a>
+                    <a class="nav-link" href="/test/ordini">Prenotazioni</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">

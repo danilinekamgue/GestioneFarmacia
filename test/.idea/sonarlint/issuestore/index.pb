@@ -75,3 +75,11 @@ Y
 )src/main/webapp/client/ordini-cliente.jsp,d\5\d57935ffd3e92eb3413ce87ed41e03c75ba8047b
 X
 (src/main/webapp/client/header-client.jsp,e\3\e398692c6d73241a1107831f04c3245a632278f2
+c
+3src/main/java/controller/OrdiniAdminController.java,0\5\056b97537d8154eff633d832a5938fb44a9378e2
+b
+2src/main/java/controller/AddFarmacoController.java,8\2\82cd987d505b28f85cd6fb2664a73fac816454d1
+d
+4src/main/java/controller/DeletePharmaController.java,b\0\b086085d3893fca325e828aa130e3ee83ed312e0
+G
+src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10

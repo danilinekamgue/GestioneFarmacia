@@ -1,0 +1,30 @@
+
+ˆ	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(‘Ğƒ¢8Œ‰ôÚµ2J$0fb06df1-5c22-4ae1-af5a-c9a03f9c2780
+
+java:S2184_"HCast one of the operands of this multiplication operation to a "double".(™ã¬Òıÿÿÿÿ8‘‰ôÚµ2J$db5075ce-f32a-493c-91b1-446a7ca1b893
+b
+java:S2259E"EA "NullPointerException" could be thrown; "farmaco" is nullable here.(¢™ğÅ8Û¥ÑŞµ2
+i
+java:S2095N"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ8İ¥ÑŞµ2
+j
+java:S2095M"HUse try-with-resources or close this "Connection" in a "finally" clause.( ÑªÖıÿÿÿÿ8İ¥ÑŞµ2
+r	java:S1064"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8®‰ôÚµ2J$ae8ebe49-e21b-47b3-ac35-c4ad70b384f8
+œ
+java:S1989<"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(áûŸÔ8²‰ôÚµ2J$b63cad78-2722-4c47-8cd4-99a8baed4d46
+œ
+java:S1989@"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ı³«8³‰ôÚµ2J$614071ef-096b-4d66-9f0a-1dba9510b38a
+›
+java:S1989F"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8µ‰ôÚµ2J$e16461e4-d3e1-40e8-ab24-ef141df32db4
+j
+java:S2441^"MMake "List" and its parameters serializable or don't store it in the session.(É˜Éâ8ı¥ÑŞµ2
+m	java:S106b"+Replace this use of System.out by a logger.(Šğš8¿‰ôÚµ2J$baefdac1-b759-44c2-b369-cfc7d80440d0
+r	java:S106q"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Ã‰ôÚµ2J$4c356f31-9fd8-49e9-96ee-e901cd686f42
+©
+java:S1989t"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(„ìÄøÿÿÿÿ8Ä‰ôÚµ2J$14652978-8344-40af-a68a-e7e3efb3f032
+~	java:S125"<This block of commented-out lines of code should be removed.(­ÛåL8È‰ôÚµ2J$25fbb1da-b75f-4c01-8169-30d75902259f
+„	java:S125‰"<This block of commented-out lines of code should be removed.(«¶¥üÿÿÿÿ8Ì‰ôÚµ2J$50712182-233d-4fec-9ef4-d2df5a8db5ed
+s	java:S106•"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Ï‰ôÚµ2J$042956eb-9155-4e26-8674-2faa3b8c807a
+p
+java:S2441¢"MMake "List" and its parameters serializable or don't store it in the session.(æñ÷äúÿÿÿÿ8‘¦ÑŞµ2
+¥
+java:S1989£"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ö“ëš8Ò‰ôÚµ2J$9f4d314f-ace7-48ec-a950-f8041a2d4839

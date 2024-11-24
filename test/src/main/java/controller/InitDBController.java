@@ -17,6 +17,12 @@ public class InitDBController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+
+
+
+        String sqlScript0 = " CREATE DATABASE IF NOT EXISTS FARMACIA ; ";
+
+
         String sqlScript1 =
                 " CREATE TABLE IF NOT EXISTS users ( \n" +
                 " email varchar(100) PRIMARY KEY NOT NULL, \n" +
@@ -67,6 +73,7 @@ public class InitDBController extends HttpServlet {
             // Tentativo di connessione al database
             conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
             stmt = conn.createStatement();
+            stmt.executeUpdate(sqlScript0);
             stmt.executeUpdate(sqlScript1);
             stmt.executeUpdate(sqlScript2);
             stmt.executeUpdate(sqlScript3);

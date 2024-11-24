@@ -14,16 +14,15 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.*;
-import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 
-@WebServlet(urlPatterns = {"/client/ordini-cliente"})
-public class OrdiniClienteController extends HttpServlet {
+
+@WebServlet(urlPatterns = {"/ordini"})
+public class OrdiniAdminController extends HttpServlet {
 
 
     @Override
@@ -92,7 +91,7 @@ public class OrdiniClienteController extends HttpServlet {
 
             for(String key : names.keySet()) {
                 HttpSession session = request.getSession();
-                session.setAttribute("ordini", getOrdiniByEmail(email));
+                session.setAttribute("ordini", getOrdini());
                 double price = Integer.parseInt(request.getParameter(key)) * farmaci.get(key).getPrezzo();
                 prezzoTotale = prezzoTotale + price;
                 query = "UPDATE farmaci SET quantita = " + (farmaci.get(key).getQuantita() - Integer.parseInt(request.getParameter(key))) + " WHERE id = " + key;
@@ -118,14 +117,13 @@ public class OrdiniClienteController extends HttpServlet {
     }
 
 
-    private List<OrdineModel> getOrdiniByEmail(String email){
+    private List<OrdineModel> getOrdini(){
 
         Map<Integer, OrdineModel> ordini = new TreeMap<>();
         String query = "SELECT o.id, orf.id_famaco, f.nome, orf.quantita    " +
                 " FROM ordine o " +
                 " INNER JOIN ordine_farmaci orf  ON  orf.id_ordine= o.id " +
-                " INNER JOIN farmaci f  ON  f.id = orf.id_famaco " +
-                " WHERE o.email_user = '" + email+"'" ;
+                " INNER JOIN farmaci f  ON  f.id = orf.id_famaco " ;
 
 
         //Map<String, Farmaco> farmaci = new TreeMap<>();
@@ -141,8 +139,8 @@ public class OrdiniClienteController extends HttpServlet {
                 int idOrdine = rs.getInt("id");
                 OrdineModel tmp = ordini.get(idOrdine);
                 if(tmp == null){
-                     tmp = new OrdineModel();
-                     ordini.put(idOrdine, tmp);
+                    tmp = new OrdineModel();
+                    ordini.put(idOrdine, tmp);
                 }
                 tmp.getFarmaci().add(farmaco);
             }
@@ -161,9 +159,8 @@ public class OrdiniClienteController extends HttpServlet {
             throws ServletException, IOException {
 
 
-        String email  = request.getSession().getAttribute("email").toString();
-        request.getSession().setAttribute("ordini", this.getOrdiniByEmail(email));
-        request.getRequestDispatcher("/client/ordini-cliente.jsp").forward(request, response);
+        request.getSession().setAttribute("ordini", this.getOrdini());
+        request.getRequestDispatcher("/home.jsp").forward(request, response);
     }
 
 }

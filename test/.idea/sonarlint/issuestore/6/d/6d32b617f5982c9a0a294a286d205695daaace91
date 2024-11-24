@@ -1,7 +1,7 @@
 
-‹
-java:S2095D"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8ñŞÂ§´2J$a01d68d6-8310-4ce3-b623-196a23f96a78
-Š
-java:S2095E"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8ñŞÂ§´2J$f92f9d84-3e3f-4795-abf3-7ec0c5f86e25
-r	java:S106T"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ùŞÂ§´2J$8c07cbe6-60c6-46eb-8570-ffaa4125cb30
-r	java:S106a"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ûŞÂ§´2J$af34f9c6-59c7-447b-b32c-ba62025e34c5
+d
+java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8ê¼§àµ2
+e
+java:S2095J"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8ë¼§àµ2
+L	java:S106["+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ò¼§àµ2
+L	java:S106h"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ó¼§àµ2

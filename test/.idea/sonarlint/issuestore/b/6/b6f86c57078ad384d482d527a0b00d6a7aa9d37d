@@ -1,10 +1,4 @@
 
-e
-java:S20954"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïŽ§Ø8¡«µÐ´2
-k
-java:S20956"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŠË³l8¡«µÐ´2
 ]	java:S125 "<This block of commented-out lines of code should be removed.(ìîäâþÿÿÿÿ8¥«µÐ´2
 ~
 java:S1989H"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Ü‰Î›8ª«µÐ´2
-Y
-java:S1128"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8ª«µÐ´2

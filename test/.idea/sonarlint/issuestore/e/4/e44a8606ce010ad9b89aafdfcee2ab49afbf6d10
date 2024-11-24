@@ -1,0 +1,9 @@
+
+]
+java:S1220""Move this file to a named package.8îšñÞµ2J$cb29b240-a6f1-4954-ac52-b1c7361f1ed0
+m	java:S106"+Replace this use of System.out by a logger.(±Ë‰‡8µ¬þÞµ2J$2c917717-20ab-4a92-a936-967e47106c8f
+r	java:S106!"+Replace this use of System.out by a logger.(õ€ŸÞúÿÿÿÿ8îãÿÞµ2J$f2099c97-6682-477e-ac2c-bbece6e9e86b
+“
+java:S1989""PHandle the following exception that could be thrown by "getWriter": IOException.(¼½Ù†8˜›ñÞµ2J$13197f76-3f43-41f8-9fde-410f22c6df38
+m	java:S1061"+Replace this use of System.out by a logger.(±¾ƒä8îãÿÞµ2J$3fa255e9-6eec-48c0-b27e-bb6cba98ddb4
+L	java:S1064"+Replace this use of System.out by a logger.(îÄÔÊþÿÿÿÿ8„ï—ßµ2

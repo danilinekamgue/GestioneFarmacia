@@ -1,10 +1,4 @@
 
-…
-java:S2259D"BA "NullPointerException" could be thrown; "role" is nullable here.(î­Ôâ8¡Ó¢Ò´2J$54dca127-f29f-4a02-a799-738394ca8087
-‹
-java:S2095f"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8¡Ó¢Ò´2J$f4bbe95b-fa25-4705-8123-7822235032ce
-’
-java:S2095h"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(İèæ8¡Ó¢Ò´2J$74c09331-a456-4295-a58c-b90abe03522b
 ›
 java:S1989;"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8±Ó¢Ò´2J$a4d93f84-3445-469f-b060-75268efe58a5
 r	java:S106@"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8µÓ¢Ò´2J$2a34f672-f023-44a5-9e84-3f6636204d4b
@@ -14,8 +8,6 @@ r	java:S106J"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8¶Ó¢Ò´2J$d
 ƒ	java:S125K"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8¶Ó¢Ò´2J$947a4d14-370b-4dc5-a455-097dda320932
 ƒ	java:S125O"<This block of commented-out lines of code should be removed.(‰‚›»úÿÿÿÿ8¶Ó¢Ò´2J$87d397f4-9fe4-4c69-8b13-2a9bf2cea21e
 m	java:S106t"+Replace this use of System.out by a logger.(…»÷ß8¹Ó¢Ò´2J$6d928530-cbb2-4cf9-9604-26e8eb8d4af9
-
-java:S2441z"MMake "List" and its parameters serializable or don't store it in the session.(¬§Ä°8¹Ó¢Ò´2J$5d21da42-6630-4ac8-b317-9257afa745a5
 ›
 java:S1989{"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8¼Ó¢Ò´2J$24fc2091-9714-4514-b837-68d14466577a
 ¥
