@@ -1,13 +1,15 @@
 
 var ordineForm = "ordine-form";
 
-function validOrdine(){
-   // if no item
+function validOrdine(e){
     let ordineRef = document.getElementById(ordineForm);
-    if(ordineRef.children.length < 2) return;
-
-   return
-
+    let flag = false;
+    for(let i = 0 ; i < ordineRef.children.length ; i++){
+        if(ordineRef.children[i].id){
+            flag = true;
+        }
+    }
+    return flag;
 }
 
 function addCarello(id, nome, prezzo){

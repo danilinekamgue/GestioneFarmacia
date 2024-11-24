@@ -1,6 +1,8 @@
 <html>
 <%@include file="../bootstrap.jsp" %>
-<script type="text/javascript" src="/test/script/add-carello.js"></script>
+
+<script type="text/javascript" src="<%=request.getScheme()%>://<%=request.getServerName()%>:<%=request.getServerPort()%><%=request.getContextPath()%>/script/add-carello.js"></script>
+
 <body>
 <%@ page import="java.util.*,model.*"  %>
 

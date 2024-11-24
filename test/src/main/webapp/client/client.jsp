@@ -52,12 +52,12 @@
 
         <div class="col-md-5">
             <div class="container-fluid ">
-                <form method="POST" action="ordini-cliente" id="ordine-form" class="container-fluid">
+                <form method="POST" onsubmit="return validOrdine();" action="ordini-cliente" id="ordine-form" class="container-fluid">
                    <h5 class="pr-5 mr-5 py-3" ><strong> <u>ORDINE</u></strong></h5>
                    <% if(session.getAttribute("quantitaErrorMessage")!=null) { %>
                        <p class="text-danger"> <%= session.getAttribute("quantitaErrorMessage") %> </p>
                    <% session.setAttribute("quantitaErrorMessage", null); } %>
-                   <button class="btn btn-success" id="valida_ordine" type="submit" onclick="validOrdine()">VALIDA ORDINE</button>
+                   <button class="btn btn-success" type="submit">VALIDA ORDINE</button>
                    <div class="row my-3">
                         <div class="col-5">
                             <b> Nome Farmaco</b>

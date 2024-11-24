@@ -38,7 +38,7 @@
         </div>
 
         <div class="form-group">
-            <label for="quantita">Quantit�</label>
+            <label for="quantita">Quantita</label>
             <input type="number" class="form-control" id="quantita" name="quantita" value="<%= farmaco.getQuantita() %>" required>
         </div>
 
