@@ -73,7 +73,14 @@ public class InitDBController extends HttpServlet {
 
             conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
             stmt = conn.createStatement();
+
             stmt.executeUpdate(sqlScript0);
+
+            // USE THESE SCRIPT TO CLEAN TABLES
+            //stmt.executeUpdate("DROP TABLE ordine_farmaci;");
+            //stmt.executeUpdate("DROP TABLE ordine;");
+            //stmt.executeUpdate("DROP TABLE users;");
+            //stmt.executeUpdate("DROP TABLE farmaci;");
 
             stmt.executeUpdate(sqlScript1);
             stmt.executeUpdate(sqlScript2);

@@ -1,7 +1,8 @@
 
 ‹
-java:S2095J"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8Ø¨–€¶2J$9cc51237-8735-4142-85af-cf12ad345801
+java:S2095J"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8Ø¨–€¶2J$d0615857-b465-4800-889b-4fb66e546c92
 Š
-java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8Ø¨–€¶2J$37889509-865e-4de5-8a93-d95a7a86782d
-r	java:S106\"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8â¨–€¶2J$bd5c8ad1-1980-403b-8b01-2e33c81c4fa8
-r	java:S106i"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8â¨–€¶2J$7218fbf1-8301-4299-a602-06d20f419dde
+java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8Ø¨–€¶2J$dce3f31e-a657-4b29-9f78-3bbb3af729d3
+ƒ	java:S125P"<This block of commented-out lines of code should be removed.(Ü“¾ğıÿÿÿÿ8©î‚¶2J$38e008a4-55ea-460c-8197-2a9016814077
+r	java:S106c"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8¢‹š‚¶2J$0f4d9a3a-fd4d-45ec-a70d-628e2ceb0de6
+r	java:S106p"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8¤‹š‚¶2J$c5ac5dca-294a-4954-bb68-b8d91b51543f
