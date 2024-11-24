@@ -93,12 +93,10 @@ public class OrdiniClienteController extends HttpServlet {
             int idOrdine = rs.getInt("id");
 
             for(String key : names.keySet()) {
-                HttpSession session = request.getSession();
-                session.setAttribute("ordini", getOrdiniByEmail(email));
                 double price = Integer.parseInt(request.getParameter(key)) * farmaci.get(key).getPrezzo();
                 prezzoTotale = prezzoTotale + price;
                 query = "UPDATE farmaci SET quantita = " + (farmaci.get(key).getQuantita() - Integer.parseInt(request.getParameter(key))) + " WHERE id = " + key;
-                System.out.println(query);
+
                 stmt.executeUpdate(query);
 
                 query = " INSERT INTO ordine_farmaci (id_ordine, id_famaco, quantita) VALUE ("
@@ -106,6 +104,10 @@ public class OrdiniClienteController extends HttpServlet {
 
                 stmt.executeUpdate(query);
             }
+
+            HttpSession session = request.getSession();
+            session.setAttribute("ordini", getOrdiniByEmail(email));
+
             if (stmt != null) {
                 stmt.close();
             }

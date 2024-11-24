@@ -2,7 +2,9 @@
 var ordineForm = "ordine-form";
 
 function prepareOrdine(){
-    let formRef = document.getElementById(ordineForm);
+   // if no item
+
+   return
 
 }
 
