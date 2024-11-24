@@ -81,5 +81,7 @@ b
 2src/main/java/controller/AddFarmacoController.java,8\2\82cd987d505b28f85cd6fb2664a73fac816454d1
 d
 4src/main/java/controller/DeletePharmaController.java,b\0\b086085d3893fca325e828aa130e3ee83ed312e0
-G
-src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
+8
+test.iml,f\c\fc47de26a6da29f98ef6f955c271bb344ca0a81b
+\
+,src/main/java/controller/ClienteFarmaci.java,e\8\e8e81c0bf02ddf52f7b998a7e29a9b8bf624d032

@@ -1,0 +1,17 @@
+
+’
+java:S2095+"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(İèæ8¦ŞÂøµ2J$3468a23e-9033-4583-8a1e-77090460d3e1
+‹
+java:S2095)"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8§ŞÂøµ2J$63348359-88d5-488d-9e28-60b8ccabcd24
+r
+java:S4144>"UUpdate this method so that its implementation is not identical to "doGet" on line 24.(‹¨¯¿8ÇÈøµ2
+
+java:S2441"MMake "List" and its parameters serializable or don't store it in the session.(Íÿ§ø8½şÆøµ2J$dd84f757-446c-48ed-9ae9-77767fbf3134
+›
+java:S1989"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8ıç«øµ2J$59749c16-0e15-457e-80f4-d0026f5215a1
+
+java:S2441@"MMake "List" and its parameters serializable or don't store it in the session.(Íÿ§ø8›‚Èøµ2J$e400fb05-232e-48bf-9723-5c441da744f9
+›
+java:S1989A"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8‚Èøµ2J$c655b7a3-0594-4f87-9465-484cbe566dcf
+~
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8 ÀÇøµ2J$61cf897b-a1b2-4d1b-bd8c-59de3e6e5aa3

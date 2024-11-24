@@ -5,15 +5,15 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <form action="ordini-cliente" method="GET" class="form-inline my-2 my-lg-0">
-                      <button class="nav-link text-dark" type="submit" >
-                                 ORDINI
+                <form action="cliente-farmaci" method="GET" class="form-inline my-2 my-lg-0">
+                      <button class="btn px-5 btn-dark" type="submit" >
+                                 FARMACI
                       </button>
                 </form>
             </li>
             <li class="nav-item">
                 <form action="ordini-cliente" method="GET" class="form-inline my-2 my-lg-0">
-                    <button class="nav-link text-dark" type="submit" >
+                    <button class="btn mx-4 px-5 btn-dark" type="submit" >
                         ORDINI
                     </button>
                 </form>

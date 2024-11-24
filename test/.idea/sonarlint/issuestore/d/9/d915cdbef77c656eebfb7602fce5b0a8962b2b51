@@ -1,14 +1,28 @@
 
+…
+java:S2259C"BA "NullPointerException" could be thrown; "role" is nullable here.(î­Ôâ8•À›øµ2J$2e16e4f9-6fb0-4c94-87b1-1d60c54a3439
 ›
-java:S1989;"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8±Ó¢Ò´2J$a4d93f84-3445-469f-b060-75268efe58a5
-r	java:S106@"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8µÓ¢Ò´2J$2a34f672-f023-44a5-9e84-3f6636204d4b
+java:S1989:"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8±Ó¢Ò´2J$2d21c9d1-e1c9-417b-bad9-fcedd13ebc25
+r	java:S106?"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8µÓ¢Ò´2J$dc40532e-8fa2-4f38-a5bd-e95ed2339c57
 –
-java:S1989E"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É×Ãª8¶Ó¢Ò´2J$14b9c770-1191-40ef-9c31-db2fc4243bcf
-r	java:S106J"+Replace this use of System.out by a logger.(÷ÔáÁúÿÿÿÿ8¶Ó¢Ò´2J$deac6573-6e3d-4c4c-8353-ab0f7b5ea5c6
-ƒ	java:S125K"<This block of commented-out lines of code should be removed.(Ó›¾üÿÿÿÿ8¶Ó¢Ò´2J$947a4d14-370b-4dc5-a455-097dda320932
-ƒ	java:S125O"<This block of commented-out lines of code should be removed.(‰‚›»úÿÿÿÿ8¶Ó¢Ò´2J$87d397f4-9fe4-4c69-8b13-2a9bf2cea21e
-m	java:S106t"+Replace this use of System.out by a logger.(…»÷ß8¹Ó¢Ò´2J$6d928530-cbb2-4cf9-9604-26e8eb8d4af9
+java:S1989D"SHandle the following exception that could be thrown by "sendRedirect": IOException.(É×Ãª8¶Ó¢Ò´2J$192eb185-7e34-4543-b901-de9f146195a3
 ›
-java:S1989{"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8¼Ó¢Ò´2J$24fc2091-9714-4514-b837-68d14466577a
-¥
-java:S1989€"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$f3872ee3-ec86-44bf-8967-6d112adcb42d
+java:S1989H"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Çë—Œøÿÿÿÿ8¼Ó¢Ò´2J$8ac74063-4e25-413b-90c2-bbe28fcd3723
+¤
+java:S1989M"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$e303bd6f-0651-40a3-b1d9-f4ab982c3979
+N
+java:S1128",Remove this unused import 'config.DbConfig'.(œÒ¯öşÿÿÿÿ8ËÊÀøµ2
+L
+java:S1128"*Remove this unused import 'config.DbInfo'.(Ä »±ÿÿÿÿÿ8ËÊÀøµ2
+L
+java:S1128"*Remove this unused import 'model.Farmaco'.(¦€õ–ùÿÿÿÿ8ËÊÀøµ2
+M
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ËÊÀøµ2
+P
+java:S1128"3Remove this unused import 'java.sql.DriverManager'.(“£°8ËÊÀøµ2
+Y
+java:S1128"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8ÌÊÀøµ2
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÌÊÀøµ2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÌÊÀøµ2

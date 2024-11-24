@@ -58,6 +58,9 @@ public class OrdiniClienteController extends HttpServlet {
         Farmaco farmaco = null;
         for(String key : names.keySet()){
             farmaco = farmaci.get(key);
+            System.out.println("request.getParameter(key)");
+            System.out.println(request.getParameter(key));
+            System.out.println("request.getParameter(key)");
             if(farmaco == null || farmaco.getQuantita() < Integer.parseInt(request.getParameter(key))){
                 canServe = false;
                 break;
@@ -127,8 +130,6 @@ public class OrdiniClienteController extends HttpServlet {
                 " INNER JOIN farmaci f  ON  f.id = orf.id_famaco " +
                 " WHERE o.email_user = '" + email+"'" ;
 
-
-        //Map<String, Farmaco> farmaci = new TreeMap<>();
         try {
             SqlConn sql = new SqlConn(query);
             ResultSet rs = sql.execute();
@@ -151,8 +152,9 @@ public class OrdiniClienteController extends HttpServlet {
             System.out.println(e.getMessage());
         }
 
-
-
+        if(ordini.size() < 1){
+            return null;
+        }
         return ordini.values().stream().collect(Collectors.toList());
     }
 
