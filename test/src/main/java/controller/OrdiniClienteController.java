@@ -15,6 +15,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.*;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -58,9 +59,6 @@ public class OrdiniClienteController extends HttpServlet {
         Farmaco farmaco = null;
         for(String key : names.keySet()){
             farmaco = farmaci.get(key);
-            System.out.println("request.getParameter(key)");
-            System.out.println(request.getParameter(key));
-            System.out.println("request.getParameter(key)");
             if(farmaco == null || farmaco.getQuantita() < Integer.parseInt(request.getParameter(key))){
                 canServe = false;
                 break;
@@ -84,7 +82,8 @@ public class OrdiniClienteController extends HttpServlet {
             //id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
             String email = request.getSession().getAttribute("email").toString();
 
-            query = " INSERT ordine ( email_user, prezzo, consegnato) VALUE ( '" + email+ "', "+ prezzoTotale + ", false ) ; ";
+            query = " INSERT ordine ( email_user, prezzo, data, consegnato) VALUE ( '"
+                    + email+ "', "+ prezzoTotale +  ", '"+ LocalDateTime.now().toString() + "', false ) ; ";
             stmt.executeUpdate(query);
             query = " SELECT MAX(id) as id FROM ordine WHERE email_user = '" + email+"' ;";
             rs = stmt.executeQuery(query);
@@ -124,7 +123,7 @@ public class OrdiniClienteController extends HttpServlet {
     private List<OrdineModel> getOrdiniByEmail(String email){
 
         Map<Integer, OrdineModel> ordini = new TreeMap<>();
-        String query = "SELECT o.id, orf.id_famaco, f.nome, orf.quantita    " +
+        String query = "SELECT o.id, orf.id_famaco, f.nome, orf.quantita , o.prezzo, o.data   " +
                 " FROM ordine o " +
                 " INNER JOIN ordine_farmaci orf  ON  orf.id_ordine= o.id " +
                 " INNER JOIN farmaci f  ON  f.id = orf.id_famaco " +
@@ -135,14 +134,16 @@ public class OrdiniClienteController extends HttpServlet {
             ResultSet rs = sql.execute();
             while(rs != null && rs.next()){
                 Farmaco farmaco = new Farmaco();
-                farmaco.setId(rs.getInt("id"));
+                farmaco.setId(rs.getInt("id_famaco"));
                 farmaco.setNome(rs.getString("nome"));
-                //farmaco.setPrezzo(rs.getInt("prezzo"));
                 farmaco.setQuantita(rs.getInt("quantita"));
                 int idOrdine = rs.getInt("id");
                 OrdineModel tmp = ordini.get(idOrdine);
                 if(tmp == null){
                      tmp = new OrdineModel();
+                     tmp.setNumero(idOrdine+"");
+                     tmp.setTime(rs.getString("data"));
+                     tmp.setPrezzototale(rs.getDouble("prezzo"));
                      ordini.put(idOrdine, tmp);
                 }
                 tmp.getFarmaci().add(farmaco);

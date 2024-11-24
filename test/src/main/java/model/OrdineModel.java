@@ -8,9 +8,9 @@ public class OrdineModel {
 
     private String numero;
 
-    private LocalDateTime time;
+    private String time;
     private List<Farmaco> farmaci;
-    private int prezzototale;
+    private double prezzototale;
 
     public OrdineModel() {
         this.farmaci = new ArrayList<>();
@@ -24,11 +24,11 @@ public class OrdineModel {
         this.numero = numero;
     }
 
-    public LocalDateTime getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(LocalDateTime time) {
+    public void setTime(String time) {
         this.time = time;
     }
 
@@ -40,11 +40,11 @@ public class OrdineModel {
         this.farmaci = farmaci;
     }
 
-    public int getPrezzototale() {
+    public double getPrezzototale() {
         return prezzototale;
     }
 
-    public void setPrezzototale(int prezzototale) {
+    public void setPrezzototale(double prezzototale) {
         this.prezzototale = prezzototale;
     }
 }

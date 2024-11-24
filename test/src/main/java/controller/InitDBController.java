@@ -45,6 +45,7 @@ public class InitDBController extends HttpServlet {
                 " email_user varchar(100),\n" +
                 " prezzo double,\n" +
                 " consegnato boolean,\n" +
+                " data VARCHAR(30),\n" +
                 " FOREIGN KEY (email_user) REFERENCES users(email)\n" +
                 ");\n" ;
 
@@ -74,12 +75,19 @@ public class InitDBController extends HttpServlet {
             conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
             stmt = conn.createStatement();
             stmt.executeUpdate(sqlScript0);
-            stmt.executeUpdate(sqlScript1);
+            stmt.executeUpdate("DROP TABLE ordine_farmaci  ");
+            stmt.executeUpdate("DROP TABLE ordine ");
+            stmt.executeUpdate(sqlScript3);
+            stmt.executeUpdate(sqlScript4);
+
+           /* stmt.executeUpdate(sqlScript1);
             stmt.executeUpdate(sqlScript2);
             stmt.executeUpdate(sqlScript3);
             stmt.executeUpdate(sqlScript4);
             stmt.executeUpdate("DELETE FROM ordine_farmaci ");
             stmt.executeUpdate("DELETE FROM ordine ");
+
+            */
             rs = stmt.executeQuery("SELECT email FROM users WHERE email ='admin@admin.it'");
             if(!rs.next()){
                 stmt.executeUpdate(sqlScript5);

@@ -1,38 +1,34 @@
 
-ˆ	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(‘Ğƒ¢8¡€Øøµ2J$c592b4c7-b7fd-4ba6-851a-395acd10b25f
+ˆ	java:S112["FDefine and throw a dedicated exception instead of using a generic one.(‘Ğƒ¢8”¿…ûµ2J$ef984f71-624e-4036-9257-43f202cac128
 
-java:S2184c"HCast one of the operands of this multiplication operation to a "double".(™ã¬Òıÿÿÿÿ8¥€Øøµ2J$189e8759-eb09-49fd-ab05-419ca8a78a65
+java:S2184b"HCast one of the operands of this multiplication operation to a "double".(™ã¬Òıÿÿÿÿ8™¿…ûµ2J$561f2e69-a496-43e5-8ede-f11b46ce3b53
 ˆ
-java:S2259I"EA "NullPointerException" could be thrown; "farmaco" is nullable here.(¢™ğÅ8¾‡Øøµ2J$bc525802-ff83-4206-adb5-a6eb99f6a79e
+java:S2259G"EA "NullPointerException" could be thrown; "farmaco" is nullable here.(¢™ğÅ8ÛÅ…ûµ2J$e4cc15af-ff89-4baf-ba39-7e35ab3f9eac
 
-java:S2095R"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ8¾‡Øøµ2J$cbf9e1b9-88d8-49b3-a231-c1a81f0da874
+java:S2095P"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ8ÜÅ…ûµ2J$f649c3ac-51f7-463c-a09d-29cb88298eb4
 
-java:S2095Q"HUse try-with-resources or close this "Connection" in a "finally" clause.( ÑªÖıÿÿÿÿ8¾‡Øøµ2J$bf7d5a57-d4f4-407a-b031-059303574689
-r	java:S1065"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Í‡Øøµ2J$3bc63544-28ce-4f0c-8bc8-cf72ad161f49
-l	java:S106="+Replace this use of System.out by a logger.(²Ü®P8Ö‡Øøµ2J$e6561063-01b8-46c6-8a2c-ad66a80c93ac
-r	java:S106>"+Replace this use of System.out by a logger.(„Ó¨ÿÿÿÿÿ8×‡Øøµ2J$22920d83-b5d1-4f91-983a-8de0a6671575
-l	java:S106?"+Replace this use of System.out by a logger.(²Ü®P8Ş‡Øøµ2J$c02926c0-6d4c-4432-b04b-2d5a14c6bd61
+java:S2095O"HUse try-with-resources or close this "Connection" in a "finally" clause.( ÑªÖıÿÿÿÿ8ÜÅ…ûµ2J$67bc1814-9a9d-4597-a657-abf6820a732c
+r	java:S1066"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8æÅ…ûµ2J$716d489f-44bb-4944-b10c-f22710cfe376
 œ
-java:S1989@"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(áûŸÔ8Ï‡Øøµ2J$042a9ee9-a876-4eb7-9c7d-f262f7fd023d
+java:S1989>"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(áûŸÔ8èÅ…ûµ2J$fe545c24-9dba-4a8c-9906-d67dfd826617
 œ
-java:S1989D"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ı³«8Ğ‡Øøµ2J$1cafb8ae-422c-492a-a932-dea265114a00
+java:S1989B"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ı³«8éÅ…ûµ2J$c7bcfafc-5cb5-4c76-b84b-dd13d91f9cb8
 ›
-java:S1989J"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8Ñ‡Øøµ2J$d12fa0da-1a5d-4e89-a227-d19f21d13667
+java:S1989H"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê“£şÿÿÿÿ8êÅ…ûµ2J$b233f485-f2dd-4162-8573-5fc6089f3c9f
 •
-java:S2441b"MMake "List" and its parameters serializable or don't store it in the session.(èÿÃğüÿÿÿÿ8Õ‡Øøµ2J$5f33b092-663d-4ea1-85d3-741ce59bd264
-m	java:S106f"+Replace this use of System.out by a logger.(Šğš8¡şåøµ2J$65d149a0-b277-449a-b009-0e65b0712bba
-r	java:S106u"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ªçøµ2J$c5c909d5-7ed7-4f12-87c2-1bab7855d9ac
+java:S2441a"MMake "List" and its parameters serializable or don't store it in the session.(èÿÃğüÿÿÿÿ8îÅ…ûµ2J$3a4715af-5942-4547-8b8f-32e14c39d19e
+m	java:S106e"+Replace this use of System.out by a logger.(Šğš8ïÅ…ûµ2J$7327e2c2-2728-4bff-b967-c133d0a0698e
+r	java:S106t"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ğÅ…ûµ2J$7178c744-8205-49e5-b3e3-c3331dc9f619
 ©
-java:S1989x"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(„ìÄøÿÿÿÿ8Ø‡Øøµ2J$0495db96-0102-43e4-b230-42ec8e3ee866
-„	java:S125Œ"<This block of commented-out lines of code should be removed.(«¶¥üÿÿÿÿ8Ü‡Øøµ2J$9360ee89-03a6-4b53-ae74-44297cbdc53d
-s	java:S106˜"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8”ªçøµ2J$726ff7d2-f000-4a47-a932-a5106a47c95f
+java:S1989w"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(„ìÄøÿÿÿÿ8ğÅ…ûµ2J$e427fccb-68b6-47f5-b0a8-296d24f9f4ee
+s	java:S106™"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8õÅ…ûµ2J$f9a1d109-2b23-468c-af3a-57bce5e62aa6
 o
-java:S1168œ"+Return an empty collection instead of null.(¥¹ï8æñİøµ2J$e6ec6b52-a635-46bb-8e68-b46be677c6d6
+java:S1168"+Return an empty collection instead of null.(¥¹ï8öÅ…ûµ2J$11450d15-912d-4f93-8b2f-8b55af53d982
 –
-java:S2441§"MMake "List" and its parameters serializable or don't store it in the session.(ÅÎÁüÿÿÿÿ8à‡Øøµ2J$2ba9fee9-d266-4cdc-806c-a8700386ca43
+java:S2441¨"MMake "List" and its parameters serializable or don't store it in the session.(ÅÎÁüÿÿÿÿ8øÅ…ûµ2J$60f93af0-a16d-4eff-b4d5-58845c39ae45
 ª
-java:S1989¨"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(„ìÄøÿÿÿÿ8á‡Øøµ2J$e84348c6-d64e-446c-a284-73f96512ab80
+java:S1989©"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(„ìÄøÿÿÿÿ8øÅ…ûµ2J$be5bebf2-9cb1-4aca-ac2c-b240dcd4ef09
 x
-java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8íñİøµ2J$5c604c7a-4f84-4b8d-9160-2f60eef6f74a
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8˜¨’ûµ2J$188028b7-13d9-4845-8805-027f194131be
 s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8íñİøµ2J$b570611e-1300-4a65-9715-57a6eb9baa4e
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8˜¨’ûµ2J$869a0070-f396-4971-90c5-eef53aff2953
