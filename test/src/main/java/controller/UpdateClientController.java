@@ -17,7 +17,7 @@ import config.DbInfo;
 import model.Client;
 
 
-@WebServlet("/updateclienti")
+@WebServlet("/admin/updateclienti")
 public class UpdateClientController  extends HttpServlet{
 	
 	private static final long serialVersionUID = 1L;
@@ -98,8 +98,6 @@ public class UpdateClientController  extends HttpServlet{
             return;
         }
 
-
-        // Aggiorna il farmaco nel database
         try {
             DbInfo db = DbConfig.getDbConfig();
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -113,16 +111,12 @@ public class UpdateClientController  extends HttpServlet{
                 stmt.setString(2, password);
                 stmt.setString(3,role);
                 stmt.setString(4, email);
-               
-                
 
                 int rowsUpdated = stmt.executeUpdate();
 
                 if (rowsUpdated > 0) {
-                    // Reindirizza alla pagina di successo o alla home
-                    response.sendRedirect("home.jsp?message=Farmaco aggiornato con successo");
+                    response.sendRedirect(request.getContextPath() + "/admin/admin-user");
                 } else {
-                    // Errore: farmaco non trovato
                     response.sendError(HttpServletResponse.SC_NOT_FOUND, "Farmaco non trovato.");
                 }
             }

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import config.DbConfig;
 import config.DbInfo;
 
-@WebServlet("/deletefarmaco")
+@WebServlet("/admin/deletefarmaco")
 public class DeletePharmaController extends HttpServlet {
 	
 	
@@ -50,7 +50,7 @@ public class DeletePharmaController extends HttpServlet {
 	                int rowsDeleted = stmt.executeUpdate();
 	                if (rowsDeleted > 0) {
 	                    //Successo, reindirizza alla pagina home.jsp
-	                    response.sendRedirect("home.jsp?message=Farmaco eliminato con successo");
+						response.sendRedirect(request.getContextPath() + "/admin/admin-farmaci");
 	                } else {
 	                    // Farmaco non trovato
 	                    response.sendError(HttpServletResponse.SC_NOT_FOUND, "Farmaco non trovato.");

@@ -16,7 +16,7 @@ import config.DbConfig;
 import config.DbInfo;
 import model.Farmaco;
 
-@WebServlet ("/updateFarmaco")
+@WebServlet ("/admin/updateFarmaco")
 public class UpdateFarmacoController extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
@@ -125,7 +125,7 @@ public class UpdateFarmacoController extends HttpServlet {
 
                 if (rowsUpdated > 0) {
                     // Reindirizza alla pagina di successo o alla home
-                    response.sendRedirect("home.jsp?message=Farmaco aggiornato con successo");
+                    response.sendRedirect(request.getContextPath() + "/admin/admin-farmaci");
                 } else {
                     // Errore: farmaco non trovato
                     response.sendError(HttpServletResponse.SC_NOT_FOUND, "Farmaco non trovato.");

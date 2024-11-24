@@ -103,3 +103,13 @@ S
 #src/main/webapp/admin/addclient.jsp,3\f\3f75165a42db601295c533e2c2b4152e0ad3007d
 Y
 )src/main/java/controller/AdminOrdini.java,f\9\f9d19b725e44b182c7406198ae8ec61cd380500c
+V
+&src/main/webapp/admin/updateclient.jsp,8\2\8257e96230d04371f539c4e8b341b8ecc22cb279
+d
+4src/main/java/controller/UpdateClientController.java,7\7\771f45ba666cc7260fc73aa9c48a930e7b38bb71
+e
+5src/main/java/controller/UpdateFarmacoController.java,d\2\d28d0390ab0b929197546cae80fc12a2209e374c
+W
+'src/main/webapp/admin/updateFarmaco.jsp,c\8\c8469e62d42d674450eef2bee97196351c8efff2
+d
+4src/main/java/controller/DeleteClientController.java,e\9\e96c43d51c85a845d3c957917af917491d5b29fd

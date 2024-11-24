@@ -41,32 +41,3 @@
             </ul>
     </div>
 </nav>
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">PharmaDaniella</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <!-- Cambia l'ordine dei link -->
-                <li class="nav-item">
-                    <a class="nav-link" href="/test/farmaci"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/test/clienti">Clienti</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/test/ordini">Prenotazioni</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <form action="logout" method="post" style="display: inline;">
-                        <button type="submit" class="btn btn-outline-light btn-sm">Logout</button>
-                    </form>
-                </li>
-            </ul>
-        </div>
-    </nav>

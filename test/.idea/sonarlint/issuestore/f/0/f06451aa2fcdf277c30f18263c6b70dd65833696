@@ -1,8 +1,8 @@
 
-e
-java:S20956"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÀœ¢
 ^
 java:S20953"HUse try-with-resources or close this "Connection" in a "finally" clause.(ìº‡
+e
+java:S20956"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÀœ¢
 P
 java:S1161":Add the "@Override" annotation above this method signature(÷¤‹ú
 i

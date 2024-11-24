@@ -1,0 +1,18 @@
+
+
+java:S1192"FDefine a constant instead of duplicating this literal "email" 3 times.(òÁÕâüÿÿÿÿ8˜•Ğıµ2J$6c1b056e-14fb-47fe-867c-f74aee7c28ac
+m	java:S106"+Replace this use of System.out by a logger.(ßÆñ—8¬•Ğıµ2J$bcd34b38-a9cd-47e0-8248-bd5fabadbd4a
+r	java:S106 "+Replace this use of System.out by a logger.(Òü¯ñùÿÿÿÿ8­•Ğıµ2J$f5bd9058-b357-4eab-b27d-9c8f3b8ffb3c
+“
+java:S1989""PHandle the following exception that could be thrown by "sendError": IOException.(³Áóà8®•Ğıµ2J$7267e015-ad7d-4c31-9150-91f3137dc8d9
+m	java:S106="+Replace this use of System.out by a logger.(äüßí8±•Ğıµ2J$95fbbff3-9b12-40fc-8702-dca37a68ddb4
+’
+java:S1989B"PHandle the following exception that could be thrown by "sendError": IOException.(Í£Œf8±•Ğıµ2J$4b92f2e7-ce11-4f34-9f03-f7e932101eac
+˜
+java:S1989G"PHandle the following exception that could be thrown by "sendError": IOException.(·±¯Ñøÿÿÿÿ8±•Ğıµ2J$e7b26559-bc12-4123-9634-709937646fef
+¤
+java:S1989M"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(šßğ8²•Ğıµ2J$f7095593-5cc8-4044-ac5b-208a21eb31e6
+“
+java:S1989a"PHandle the following exception that could be thrown by "sendError": IOException.(³Óò…8´•Ğıµ2J$adba8b7a-e4f8-43db-bf1c-745d3a1a3fed
+˜
+java:S1989}"PHandle the following exception that could be thrown by "sendError": IOException.(´¾æíúÿÿÿÿ8¶•Ğıµ2J$bb2b8338-5950-46f2-b56f-e1dc194b1340

@@ -1,3 +1,5 @@
+package controller;
+
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import config.DbConfig;
 import config.DbInfo;
 
-@WebServlet("/deleteclienti")
+@WebServlet("/admin/deleteclienti")
 
 public class DeleteClientController extends HttpServlet {
 	
@@ -28,9 +30,6 @@ public class DeleteClientController extends HttpServlet {
 	            return;
 	        }
 
-	        
-	        
-
 	        // Eliminazione del user dal database
 	        try {
 	            DbInfo db = DbConfig.getDbConfig();
@@ -45,8 +44,7 @@ public class DeleteClientController extends HttpServlet {
 
 	                int rowsDeleted = stmt.executeUpdate();
 	                if (rowsDeleted > 0) {
-	                    //Successo, reindirizza alla pagina home.jsp
-	                    response.sendRedirect("home.jsp?message=user eliminato con successo");
+						response.sendRedirect(request.getContextPath() + "/admin/admin-user");
 	                } else {
 	                    // Farmaco non trovato
 	                    response.sendError(HttpServletResponse.SC_NOT_FOUND, "user non trovato.");
