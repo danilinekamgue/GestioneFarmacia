@@ -32,8 +32,11 @@
     </select>
 </div>
             
-           
+
+            <div class="d-flex justify-content-between">
             <button type="submit" class="btn btn-primary">Aggiungi</button>
+                <a href="admin-user" class="btn btn-secondary">Annulla</a>
+            </div>
         </form>
     </div>
 </body>

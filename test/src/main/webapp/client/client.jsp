@@ -57,7 +57,7 @@
                    <% if(session.getAttribute("quantitaErrorMessage")!=null) { %>
                        <p class="text-danger"> <%= session.getAttribute("quantitaErrorMessage") %> </p>
                    <% session.setAttribute("quantitaErrorMessage", null); } %>
-                   <button class="btn btn-success" id="valida_ordine" type="submit" onclick="prepareOrdine()">VALIDA ORDINE</button>
+                   <button class="btn btn-success" id="valida_ordine" type="submit" onclick="validOrdine()">VALIDA ORDINE</button>
                    <div class="row my-3">
                         <div class="col-5">
                             <b> Nome Farmaco</b>

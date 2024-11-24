@@ -25,10 +25,14 @@
             </div>
             
              <div class="form-group">
-                <label for="quantit�">Quantit�</label>
-                <input type="text" class="form-control" id="quantit�" name="quantit�" required>
+                <label for="quantita">Quantita</label>
+                <input type="text" class="form-control" id="quantita" name="quantita" required>
             </div>
-            <button type="submit" class="btn btn-primary">Aggiungi</button>
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-primary">Aggiungi</button>
+                <a href="admin-farmaci" class="btn btn-secondary">Annulla</a>
+            </div>
         </form>
     </div>
 </body>

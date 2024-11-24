@@ -25,7 +25,7 @@ public class AddFarmacoController extends HttpServlet {
 	        String nome = request.getParameter("nome");
 	        String descrizione = request.getParameter("descrizione");
 	        String prezzo = request.getParameter("prezzo");
-	        String quantita = request.getParameter("quantità");
+	        String quantita = request.getParameter("quantita");
 	        
 	        
 	        Connection conn = null;

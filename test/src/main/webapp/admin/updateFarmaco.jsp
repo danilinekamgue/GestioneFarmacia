@@ -38,12 +38,15 @@
         </div>
 
         <div class="form-group">
-            <label for="quantita">Quantità</label>
+            <label for="quantita">Quantitï¿½</label>
             <input type="number" class="form-control" id="quantita" name="quantita" value="<%= farmaco.getQuantita() %>" required>
         </div>
 
+
+            <div class="d-flex justify-content-between">
         <button type="submit" class="btn btn-primary">Salva</button>
-        <a href="home.jsp" class="btn btn-secondary">Annulla</a>
+                <a href="admin-farmaci" class="btn btn-secondary">Annulla</a>
+            </div>
     </form>
     <% } else { %>
     <div class="alert alert-danger" role="alert">

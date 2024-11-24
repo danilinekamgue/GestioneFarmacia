@@ -16,7 +16,7 @@
                         <th>Nome</th>
                         <th>Descrizione</th>
                         <th>Prezzo</th>
-                        <th>Quantità</th>
+                        <th>Quantita</th>
                         <th>Actions</th>
 
                     </tr>

@@ -54,7 +54,7 @@
                     <!-- Pulsanti -->
                     <div class="d-flex justify-content-between">
                         <button type="submit" class="btn btn-primary">Salva</button>
-                        <a href="home.jsp" class="btn btn-secondary">Annulla</a>
+                        <a href="admin-user" class="btn btn-secondary">Annulla</a>
                     </div>
                 </form>
             </div>

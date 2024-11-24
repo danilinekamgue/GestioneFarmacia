@@ -1,8 +1,10 @@
 
 var ordineForm = "ordine-form";
 
-function prepareOrdine(){
+function validOrdine(){
    // if no item
+    let ordineRef = document.getElementById(ordineForm);
+    if(ordineRef.children.length < 2) return;
 
    return
 

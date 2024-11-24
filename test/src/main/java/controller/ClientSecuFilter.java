@@ -23,8 +23,8 @@ public class ClientSecuFilter implements Filter {
                 !session.getAttribute("isLogged").equals(true) ||
                 session.getAttribute("role") == null ||
                 !session.getAttribute("role").equals("client") ){
-            response.sendRedirect(request.getContextPath() + "/");
-            filterChain.doFilter(servletRequest, servletResponse);
+            response.sendRedirect(request.getContextPath() + "");
+           // filterChain.doFilter(servletRequest, servletResponse);
             return;
         }
         filterChain.doFilter(servletRequest, servletResponse);
