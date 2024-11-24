@@ -1,5 +1,11 @@
 
-‘
-java:S1989"PHandle the following exception that could be thrown by "sendError": IOException.(¨»˜ˆşÿÿÿÿJ$571503bf-2be7-4ff9-bedd-bcdb275bdc3c
-Œ
-java:S19897"PHandle the following exception that could be thrown by "sendError": IOException.(©©­¢J$86e8a1f3-b11a-43cd-82bb-0ea65926e1e5
+’
+java:S20950"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ôÖå8à€‚¶2J$8c1bf9b3-f49e-486a-ac9e-bb52d7284703
+
+java:S2095."HUse try-with-resources or close this "Connection" in a "finally" clause.( ÑªÖıÿÿÿÿ8à€‚¶2J$bd36625e-0b66-40a6-9e7e-586cc59a5731
+—
+java:S2095@"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¼¾éÂüÿÿÿÿ8à€‚¶2J$c32fb5ce-ac4f-4a06-ace0-3221af1cbe8f
+˜
+java:S1989"PHandle the following exception that could be thrown by "sendError": IOException.(¨»˜ˆşÿÿÿÿ8–à€‚¶2J$04147e17-3bda-4e09-8fe4-22f2a3196dcb
+“
+java:S1989N"PHandle the following exception that could be thrown by "sendError": IOException.(©©­¢8à€‚¶2J$dde8992c-1f12-4924-8b7e-43a331a17d66

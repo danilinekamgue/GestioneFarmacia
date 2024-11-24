@@ -113,3 +113,7 @@ W
 'src/main/webapp/admin/updateFarmaco.jsp,c\8\c8469e62d42d674450eef2bee97196351c8efff2
 d
 4src/main/java/controller/DeleteClientController.java,e\9\e96c43d51c85a845d3c957917af917491d5b29fd
+I
+src/main/webapp/error.jsp,c\b\cba3df22242d379bdb72d00919d2e8d49101d1bf
+]
+-src/main/java/controller/ErrorController.java,5\c\5c325090290111f9d1872384c24fb36fa108331a

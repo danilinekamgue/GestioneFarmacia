@@ -1,28 +1,28 @@
 
 …
-java:S2259B"BA "NullPointerException" could be thrown; "role" is nullable here.(î­Ôâ8•À›øµ2J$333e02da-8768-404d-a768-68dff3367fda
+java:S2259B"BA "NullPointerException" could be thrown; "role" is nullable here.(î­Ôâ8•À›øµ2J$9b637bda-0b0f-4c2b-b60d-03b80e8615b2
 ›
-java:S1989:"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8±Ó¢Ò´2J$1acbcf5e-ee9a-4252-8a03-380891b98a4b
-r	java:S106?"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8µÓ¢Ò´2J$901f8c31-ea9b-4ed0-90b2-743e8f3c367e
+java:S1989:"SHandle the following exception that could be thrown by "sendRedirect": IOException.(–£ñûÿÿÿÿ8±Ó¢Ò´2J$39f5f777-b814-4395-b0e8-afd7cbc2f458
+r	java:S106?"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8µÓ¢Ò´2J$7181febd-5528-48e4-85bd-3fdc455af22c
 ›
-java:S1989C"SHandle the following exception that could be thrown by "sendRedirect": IOException.(œ²¼µøÿÿÿÿ8¶Ó¢Ò´2J$840d52e1-1f60-43c5-b8a8-4bfc889c37cc
+java:S1989C"SHandle the following exception that could be thrown by "sendRedirect": IOException.(œ²¼µøÿÿÿÿ8¶Ó¢Ò´2J$565cca5e-8cb8-4871-9e4a-593f87e74e12
 ›
-java:S1989F"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Çë—Œøÿÿÿÿ8¼Ó¢Ò´2J$878ce89a-2233-46ff-ac0d-228d167f37f8
+java:S1989F"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Çë—Œøÿÿÿÿ8¼Ó¢Ò´2J$409c702c-a1c6-429d-ba89-8022529e2639
 ¤
-java:S1989K"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$969597a1-60d9-43ab-9be4-6bb5e57ac918
+java:S1989K"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(½”¡¿8êğà­´2J$0239a80e-562e-4acc-8c25-a46419e76bfa
 t
-java:S1128",Remove this unused import 'config.DbConfig'.(œÒ¯öşÿÿÿÿ8ËÊÀøµ2J$9338e5c6-ef36-4efb-ad84-2f6eb1776a34
+java:S1128",Remove this unused import 'config.DbConfig'.(œÒ¯öşÿÿÿÿ8ËÊÀøµ2J$ab209351-fa83-49e0-bac5-9453df07de5d
 r
-java:S1128"*Remove this unused import 'config.DbInfo'.(Ä »±ÿÿÿÿÿ8ËÊÀøµ2J$7a00a2b3-c67d-4ad6-8c82-5e8bbe55eda2
+java:S1128"*Remove this unused import 'config.DbInfo'.(Ä »±ÿÿÿÿÿ8ËÊÀøµ2J$55f48fb0-c25f-49cc-b48f-d33e41b718e4
 r
-java:S1128"*Remove this unused import 'model.Farmaco'.(¦€õ–ùÿÿÿÿ8ËÊÀøµ2J$b249cf29-e9e2-469e-af10-981a7ee679c5
+java:S1128"*Remove this unused import 'model.Farmaco'.(¦€õ–ùÿÿÿÿ8ËÊÀøµ2J$ccd660a5-2a28-488c-9940-d766b603bf3c
 s
-java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ËÊÀøµ2J$d6dd6c80-79ed-4a97-901e-819293333956
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ËÊÀøµ2J$b9e202d4-51e9-4586-9c9d-ce2709cd9ac4
 v
-java:S1128"3Remove this unused import 'java.sql.DriverManager'.(“£°8ËÊÀøµ2J$42cdcdb2-a9c5-4bbf-a4cd-4f0199906eab
+java:S1128"3Remove this unused import 'java.sql.DriverManager'.(“£°8ËÊÀøµ2J$bfb2a80e-c113-4613-b246-1a163fd9f4b5
 
-java:S1128"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8ÌÊÀøµ2J$d40beca0-1bd8-4586-a247-dfe1aaf9653e
+java:S1128"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8ÌÊÀøµ2J$e14f7c44-7fcb-48a2-96be-2a00730d1c8b
 s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÌÊÀøµ2J$97da92cd-3bb2-4508-b11e-254088293736
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÌÊÀøµ2J$f80c9ad9-e825-40da-84b1-3acfd2aeaa15
 s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÌÊÀøµ2J$109f9240-9e0f-47b6-ac60-d0e4e517368f
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÌÊÀøµ2J$20ce06ab-c833-45d3-b4b5-8be44f8d9669

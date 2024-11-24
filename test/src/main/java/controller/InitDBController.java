@@ -71,23 +71,16 @@ public class InitDBController extends HttpServlet {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Tentativo di connessione al database
             conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
             stmt = conn.createStatement();
             stmt.executeUpdate(sqlScript0);
-            stmt.executeUpdate("DROP TABLE ordine_farmaci  ");
-            stmt.executeUpdate("DROP TABLE ordine ");
-            stmt.executeUpdate(sqlScript3);
-            stmt.executeUpdate(sqlScript4);
 
-           /* stmt.executeUpdate(sqlScript1);
+            stmt.executeUpdate(sqlScript1);
             stmt.executeUpdate(sqlScript2);
             stmt.executeUpdate(sqlScript3);
             stmt.executeUpdate(sqlScript4);
-            stmt.executeUpdate("DELETE FROM ordine_farmaci ");
-            stmt.executeUpdate("DELETE FROM ordine ");
 
-            */
+
             rs = stmt.executeQuery("SELECT email FROM users WHERE email ='admin@admin.it'");
             if(!rs.next()){
                 stmt.executeUpdate(sqlScript5);

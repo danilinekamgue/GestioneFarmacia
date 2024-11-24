@@ -1,12 +1,7 @@
 
 ‹
-java:S2095K"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8Øşôúµ2J$3fec47f0-a6d5-4d2a-a129-d4f73d40e75c
+java:S2095J"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8Ø¨–€¶2J$9cc51237-8735-4142-85af-cf12ad345801
 Š
-java:S2095L"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8Øşôúµ2J$d19077b0-f8d3-4a98-bf0d-b0f2095a294d
-r
-java:S1481"/Remove this unused "sqlScript1" local variable.(’öä‘8Üşôúµ2J$917c90f9-0bc9-4c7a-9526-82f6321034c7
-r
-java:S1481#"/Remove this unused "sqlScript2" local variable.(Æ¡§8İşôúµ2J$86d51a22-c829-41d8-a2e2-e97e3b68b95b
-~	java:S125S"<This block of commented-out lines of code should be removed.(‹…ò‚8âşôúµ2J$f30eb464-c711-4bdb-a85d-3fd80307d2e7
-r	java:S106c"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8åşôúµ2J$fe81e89e-32d0-4a8f-b6c7-f05d79e51b88
-r	java:S106p"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8æşôúµ2J$a553f487-de51-4aa2-a403-ee5501657fe4
+java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8Ø¨–€¶2J$37889509-865e-4de5-8a93-d95a7a86782d
+r	java:S106\"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8â¨–€¶2J$bd5c8ad1-1980-403b-8b01-2e33c81c4fa8
+r	java:S106i"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8â¨–€¶2J$7218fbf1-8301-4299-a602-06d20f419dde

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -27,7 +28,7 @@ public class DeletePharmaController extends HttpServlet {
 	            return;
 	        }
 
-	        int id;
+	        int id = 0;
 	        try {
 	            id = Integer.parseInt(idParam);
 	        } catch (NumberFormatException e) {
@@ -42,8 +43,27 @@ public class DeletePharmaController extends HttpServlet {
 
 	            String deleteQuery = "DELETE FROM farmaci WHERE id = ?";
 
-	            try (Connection conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
-	                 PreparedStatement stmt = conn.prepareStatement(deleteQuery)) {
+
+
+				String checkQuery = "SELECT * FROM ordine_farmaci WHERE id_famaco = ?";
+
+				Connection conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
+
+				PreparedStatement stmt = conn.prepareStatement(checkQuery) ;
+				stmt.setInt(1, id);
+				ResultSet rs = stmt.executeQuery();
+				if(rs.next()){
+
+					if(request.getServletPath().contains("clienti")){
+						request.getSession().setAttribute("url", "admin/admin-user");
+					}else{
+						request.getSession().setAttribute("url", "admin/admin-farmaci");
+					}
+					request.getSession().setAttribute("error", "Non puoi cancellare un farmaco essendo gia in un ordine !");
+					response.sendRedirect(request.getContextPath() + "/error");
+					return ;
+				}
+				 stmt = conn.prepareStatement(deleteQuery);
 
 	                stmt.setInt(1, id);
 
@@ -55,7 +75,7 @@ public class DeletePharmaController extends HttpServlet {
 	                    // Farmaco non trovato
 	                    response.sendError(HttpServletResponse.SC_NOT_FOUND, "Farmaco non trovato.");
 	                }
-	            }
+
 	        } catch (Exception e) {
 	            e.printStackTrace();
 	            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Errore durante l'eliminazione del farmaco.");
