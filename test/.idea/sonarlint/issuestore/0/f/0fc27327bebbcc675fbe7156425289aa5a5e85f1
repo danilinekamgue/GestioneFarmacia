@@ -1,12 +1,12 @@
 
-‘
-java:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŠË³l8Ò»ðûµ2J$65f7ed73-2f51-4fb3-8a88-fd52a7c0425f
 ‹
-java:S2095-"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïŽ§Ø8Ñ»ðûµ2J$30b4d73e-df82-4d01-976b-cf83f5cf3649
+java:S2095-"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïŽ§Ø8Ñ»ðûµ2J$2707da06-a1d9-46bf-a23f-30600494c81d
+‘
+java:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŠË³l8Ò»ðûµ2J$27cb4848-6095-476c-80a8-5aaaf4009066
 ™
-java:S4144B"VUpdate this method so that its implementation is not identical to "doPost" on line 25.(÷¤‹ú8“Ýòûµ2J$d43d85e4-19ac-4f82-b509-a3aaa8c304b8
+java:S4144B"VUpdate this method so that its implementation is not identical to "doPost" on line 25.(÷¤‹ú8“Ýòûµ2J$6fccd45b-5f14-42df-95e3-f5b655aead24
 ©
-java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(èÚ­øþÿÿÿÿ8¢õìûµ2J$aea939b3-a513-42a6-bd72-0a7c67e33030
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÃîÄÜøÿÿÿÿ8˜Ýòûµ2J$9cf21e64-cb4d-4d7b-83b0-0f2413725273
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(èÚ­øþÿÿÿÿ8¢õìûµ2J$a925eb31-7c7e-4cc7-a274-6f9e55920b47
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÃîÄÜøÿÿÿÿ8˜Ýòûµ2J$adc3b849-acac-41bb-b6a4-8c1ee8d32a9e
 ©
-java:S1989F"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(èÚ­øþÿÿÿÿ8£õìûµ2J$43e6bc4b-84e1-484c-88c9-5b64a325da14
+java:S1989F"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(èÚ­øþÿÿÿÿ8£õìûµ2J$68b85042-edfb-4809-91fc-0e808538237c
