@@ -1,0 +1,20 @@
+
+‘
+java:S2095)"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŠË³l8ÅÚÕüµ2J$3b9db2d6-4f27-4ed9-8a3f-1c4ef6df097a
+‹
+java:S2095'"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8ÄÚÕüµ2J$0a6d227b-bc26-4477-8249-e25740051ee5
+s
+java:S4144O"VUpdate this method so that its implementation is not identical to "doPost" on line 22.(÷¤‹ú8×—Öüµ2
+¤
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(÷Òúæ8ÊÚÕüµ2J$39622834-a0e5-4d00-9f3e-a8dc17097ccf
+‡
+java:S21479"DCombine this catch with the one at line 54, which has the same body.(ıàÑÎ8ÓÚÕüµ2J$d10b3ac0-c604-4e73-b935-6b602de74ecf
+r	java:S1063"+Replace this use of System.out by a logger.(·µÓŸÿÿÿÿÿ8ÖÚÕüµ2J$2bea06f4-e62c-4e4a-9e36-457e46a76ef9
+n
+java:S11688"+Return an empty collection instead of null.(¥¹ï8ÜÚÕüµ2J$84e34143-2bc0-4bd8-8484-722b17fa8692
+n
+java:S1168:"+Return an empty collection instead of null.(¥¹ï8ÜÚÕüµ2J$9af375ac-f523-4135-bc9a-9dd3c2596de3
+~
+java:S1989S"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(÷Òúæ8å—Öüµ2
+r
+java:S1128"*Remove this unused import 'model.Farmaco'.(¦€õ–ùÿÿÿÿ8ßÚÕüµ2J$7cbda87c-fe23-4dd2-90f2-cb9005fd99b7

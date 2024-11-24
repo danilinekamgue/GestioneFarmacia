@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import config.DbConfig;
 import config.DbInfo;
 
-@WebServlet("/addclient")
+@WebServlet("/admin/addclient")
 public class AddClient  extends  HttpServlet{
 	
 	
@@ -60,7 +60,8 @@ public class AddClient  extends  HttpServlet{
 	        }
 
 	        // Reindirizza alla pagina dei clienti dopo l'aggiunta
-	        response.sendRedirect("home.jsp");
+	       // response.sendRedirect("home.jsp");
+		 response.sendRedirect("admin-user");
 	    }
 
 }

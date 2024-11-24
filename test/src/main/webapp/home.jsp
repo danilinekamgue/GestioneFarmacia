@@ -24,46 +24,7 @@
 <% if (request.getAttribute("farmaci") != null) { %>
 
 <% } else if (request.getAttribute("clients") != null) { %>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-            
-                <th>Email</th>
-                <th>Nome</th>
-                
-                <th>Role</th>
-                <th>Password</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            <% 
-            List<Client> clients = (List<Client>) request.getAttribute("clients");
-            for (Client client : clients) { %>
-                <tr>
-                
-                     <td><%= client.getEmail() %></td>
-                    <td><%= client.getNome() %></td>
-                   
-                    <td><%= client.getRole() %></td>
-                    <td><%= client.getPassword() %></td>
-                    <td>
-                        <!-- Pulsante di aggiornamento -->
-                        <a href="updateclienti?email=<%= client.getEmail() %>" class="btn btn-primary btn-sm">U</a>
-                        
-                        <!-- Pulsante di eliminazione -->
-                        <form action="deleteclienti" method="post" style="display:inline;">
-                            <input type="hidden" name="email" value="<%= client.getEmail() %>">
-                            <button type="submit" class="btn btn-danger btn-sm">X</button>
-                        </form>
-                    </td>
-                </tr>
-            <% } %>
-        </tbody>
-    </table>
-     <div class="text-center mt-3">
-        <a href="addclient.jsp" class="btn btn-success btn-lg">Add Clients</a>
-    </div>
+
 <% } else if (request.getAttribute("orders") != null) {%> 
      
    <div class="container mt-5">

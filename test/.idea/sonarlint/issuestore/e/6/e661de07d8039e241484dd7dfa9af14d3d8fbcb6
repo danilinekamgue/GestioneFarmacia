@@ -1,11 +1,16 @@
 
 „
-java:S11925"HDefine a constant instead of duplicating this literal "message" 3 times.(–¦Œ‚J$b3039a17-83f5-42e9-8209-397c72af13fa
+java:S11925"HDefine a constant instead of duplicating this literal "message" 3 times.(–¦Œ‚J$42e702e9-0900-40db-8bab-2e8aa9e41faf
+’
+java:S2095-"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‚¹ó½8„àŞüµ2J$7c5c2608-754a-4341-95dd-cb3d509181ce
+‹
+java:S2095+"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8„àŞüµ2J$53575a06-d8a8-47e3-8c24-d3aef67f0e42
 h
-java:S1481 "'Remove this unused "rs" local variable.(ÀÇÄûÿÿÿÿJ$4df6a3b2-2dc8-43b3-bd48-7bba41bde047
-m	java:S106%"+Replace this use of System.out by a logger.(ÔË«Ô8ºÔ¼É´2J$7076debc-3c88-4818-9f87-6bd1ace79933
-r	java:S106&"+Replace this use of System.out by a logger.(î¸ıÿÿÿÿ8¥Â½É´2J$125abd77-30e4-4b10-a155-e636f6d430c3
-r	java:S106'"+Replace this use of System.out by a logger.(Ï±Èÿşÿÿÿÿ8«ü½É´2J$f6ff4e5f-3920-4743-968f-d1447a42e3ca
-m	java:S106("+Replace this use of System.out by a logger.(ÔË«Ô8¨’ÁÉ´2J$e3ba01ba-0fbc-4ffd-9ae4-598927f8ecc9
-”
-java:S1989?"SHandle the following exception that could be thrown by "sendRedirect": IOException.(®ş¡ÔøÿÿÿÿJ$be2649fb-fdb8-4ad2-86b1-4c1c8d769937
+java:S1481 "'Remove this unused "rs" local variable.(ÀÇÄûÿÿÿÿJ$3e75df47-6729-4b2d-8c2a-0c95d0ba448f
+m	java:S106%"+Replace this use of System.out by a logger.(ÔË«Ô8ºÔ¼É´2J$a7404e37-002e-4cf0-a7da-81305d4d01db
+r	java:S106&"+Replace this use of System.out by a logger.(î¸ıÿÿÿÿ8¥Â½É´2J$ac30ddba-08ae-4a31-8da9-165dbc8abd34
+r	java:S106'"+Replace this use of System.out by a logger.(Ï±Èÿşÿÿÿÿ8«ü½É´2J$ce61a9a5-e16a-4b40-a9f2-b3a950082121
+m	java:S106("+Replace this use of System.out by a logger.(ÔË«Ô8¨’ÁÉ´2J$a5cd9d57-2705-48cc-96f5-451566d9c167
+›
+java:S1989@"SHandle the following exception that could be thrown by "sendRedirect": IOException.(÷Â‹‘şÿÿÿÿ8µúßüµ2J$7678b191-fbe5-4d56-aab9-b2d751ae7437
+~	java:S125?"<This block of commented-out lines of code should be removed.(ÊÂå¢8åàüµ2J$9b0a59b9-993e-4a67-9204-fe49f6a315c2

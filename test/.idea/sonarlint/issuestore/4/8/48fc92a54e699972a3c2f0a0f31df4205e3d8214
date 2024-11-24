@@ -1,4 +1,8 @@
 
+e
+java:S2095,"HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8ÓÙÃüµ2
+k
+java:S20950"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŠË³l8ÔÙÃüµ2
 }
 java:S1161":Add the "@Override" annotation above this method signature(÷¤‹ú8ïÒ¦É´2J$8d28770e-41f1-4e2f-bb4f-a25d0d4fda92
 r	java:S106="+Replace this use of System.out by a logger.(·µÓŸÿÿÿÿÿ8ôÒ¦É´2J$64b29903-0d96-4da5-b95a-c416d2c342b7
@@ -8,3 +12,5 @@ java:S1989D"aHandle the following exceptions that could be thrown by "forward":
 java:S1989I"AHandle the "ServletException" thrown here in a "try/catch" block.(¾ô®íşÿÿÿÿ8ôÒ¦É´2J$9d8c7964-ad49-4ed0-96c9-f3d4a36b9d62
 ‰
 java:S1989M"AHandle the "ServletException" thrown here in a "try/catch" block.(½Şæ¨üÿÿÿÿ8ôÒ¦É´2J$55253ad7-7aaf-4f4f-b14b-06a9358a259d
+M
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8æÙÃüµ2
