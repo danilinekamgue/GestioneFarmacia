@@ -30,7 +30,7 @@ public class HomeController  extends HttpServlet {
 
     private List<Farmaco> getData(){
 
-        String query = "SELECT id, nome, descrizione, quantita, prezzo   FROM farmaci WHERE quantita > 1 " ;
+        String query = "SELECT id, nome, descrizione, quantita, prezzo   FROM farmaci WHERE quantita > 0 " ;
         List<Farmaco> farmaci = new ArrayList<>();
         try {
             SqlConn sql = new SqlConn(query);

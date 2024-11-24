@@ -63,12 +63,10 @@ public class LoginController extends HttpServlet {
             System.out.println(e.getMessage());
         }
 
-
         if(role.equals("admin")){
-            response.sendRedirect(request.getContextPath() + "/jsp/admin.jsp");
+            response.sendRedirect(request.getContextPath() + "/admin/admin-farmaci");
             return;
         }
-
         response.sendRedirect(request.getContextPath() + "/client/cliente-farmaci");
     }
     @Override

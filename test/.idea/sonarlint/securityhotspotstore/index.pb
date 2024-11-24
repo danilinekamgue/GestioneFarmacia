@@ -85,3 +85,15 @@ d
 test.iml,f\c\fc47de26a6da29f98ef6f955c271bb344ca0a81b
 \
 ,src/main/java/controller/ClienteFarmaci.java,e\8\e8e81c0bf02ddf52f7b998a7e29a9b8bf624d032
+T
+$src/main/webapp/admin/admin-user.jsp,4\f\4f6f2c255e0a68fc6e6212cae0ef814381a3864a
+V
+&src/main/webapp/admin/admin-ordini.jsp,4\3\43b42ee11c38a0cf02f0f008598478ef84113333
+W
+'src/main/webapp/admin/admin-farmaci.jsp,e\9\e9aa4303dc7bdfdf1c8a5581bb5768d90d84207e
+V
+&src/main/webapp/admin/admin-header.jsp,7\4\743dd984363cfff2956162df8986e6dc51159133
+]
+-src/main/java/controller/AdminGetFarmaci.java,0\f\0fc27327bebbcc675fbe7156425289aa5a5e85f1
+T
+$src/main/webapp/admin/addfarmaco.jsp,6\6\66c045f5a221d103ff465b54827d5fcd080d1579

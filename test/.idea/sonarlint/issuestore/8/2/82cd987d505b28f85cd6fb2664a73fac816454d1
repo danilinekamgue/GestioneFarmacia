@@ -1,7 +1,12 @@
 
-^
-java:S11922"HDefine a constant instead of duplicating this literal "message" 3 times.(–¦Œ‚
-B
-java:S1481!"'Remove this unused "rs" local variable.(ÀÇÄûÿÿÿÿ
-n
-java:S1989<"SHandle the following exception that could be thrown by "sendRedirect": IOException.(®ş¡Ôøÿÿÿÿ
+‹
+java:S11922"HDefine a constant instead of duplicating this literal "message" 3 times.(–¦Œ‚8öª–üµ2J$580cd17d-610e-49e5-9557-34e0760e246c
+’
+java:S2095*"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‚¹ó½8«–üµ2J$4d0130dd-7a58-481f-843c-926dbd84a28c
+‹
+java:S2095("HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8«–üµ2J$4bc38d71-8efa-4e84-bf7e-515e27e41090
+o
+java:S1481!"'Remove this unused "rs" local variable.(ÀÇÄûÿÿÿÿ8™«–üµ2J$312cb5a5-3995-4d68-a3fd-bdf6bfb84f09
+o
+java:S1989?"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Ø¸Ûk8Ô»­üµ2
+X	java:S125>"<This block of commented-out lines of code should be removed.(Ùâæ8Õ»­üµ2

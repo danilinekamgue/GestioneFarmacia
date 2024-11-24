@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<%@ include file="bootstrap.jsp" %>
+<%@ include file="../bootstrap.jsp" %>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aggiungi Farmaco</title>
 </head>
 <body>
-   <form action="addfarmaco" method="post">
     <div class="container mt-5">
         <h2>Aggiungi Farmaco</h2>
         <form action="addfarmaco" method="post">
@@ -26,8 +25,8 @@
             </div>
             
              <div class="form-group">
-                <label for="quantità">Quantità</label>
-                <input type="text" class="form-control" id="quantità" name="quantità" required>
+                <label for="quantitï¿½">Quantitï¿½</label>
+                <input type="text" class="form-control" id="quantitï¿½" name="quantitï¿½" required>
             </div>
             <button type="submit" class="btn btn-primary">Aggiungi</button>
         </form>

@@ -1,4 +1,9 @@
 
-]	java:S125 "<This block of commented-out lines of code should be removed.(ìîäâşÿÿÿÿ8¥«µĞ´2
-~
-java:S1989H"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Ü‰Î›8ª«µĞ´2
+‹
+java:S2095("HUse try-with-resources or close this "Connection" in a "finally" clause.(ï§Ø8 øéûµ2J$5d9dade3-45e4-443b-904f-f02286e67aba
+‘
+java:S2095*"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŠË³l8¡øéûµ2J$35abf0fc-14a9-4d94-86b5-a4f6e936bbcf
+¤
+java:S1989<"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Ü‰Î›8ª«µĞ´2J$099219d4-ee9f-4ef4-a40d-5605165031d0
+
+java:S1128"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼8¸øéûµ2J$9d666285-cd70-400b-9d44-9890164c2699

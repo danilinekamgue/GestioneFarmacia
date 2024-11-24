@@ -18,90 +18,11 @@
     <title>Navbar</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">PharmaDaniella</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <!-- Cambia l'ordine dei link -->
-                <li class="nav-item">
-                    <a class="nav-link" href="/test/farmaci">Farmaci</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/test/clienti">Clienti</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/test/ordini">Prenotazioni</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <form action="logout" method="post" style="display: inline;">
-                        <button type="submit" class="btn btn-outline-light btn-sm">Logout</button>
-                    </form>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Contenuto principale -->
-    <div class="container mt-5">
-    
-        <h2>
-    <% if (request.getAttribute("farmaci") != null) { %>
-        <h2>Lista Farmaci</h2>
-    <% } else if (request.getAttribute("clients") != null) { %>
-        <h2>Lista Clienti</h2>
-    <% } else if (request.getAttribute("orders") != null) {%>
-    	<h2> Lista Orders</h2>
-    <% }%>
-</h2>
+
 
 <% if (request.getAttribute("farmaci") != null) { %>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Descrizione</th>
-                <th>Prezzo</th>
-                <th>Quantità</th>
-                <th>Actions</th>
-               
-            </tr>
-        </thead>
-        <tbody>
-            <% 
-            List<Farmaco> farmaci = (List<Farmaco>) request.getAttribute("farmaci");
-            for (Farmaco farmaco : farmaci) { %>
-                <tr>
-                    <td><%= farmaco.getId() %></td>
-                    <td><%= farmaco.getNome() %></td>
-                    <td><%= farmaco.getDescrizione() %></td>
-                    <td><%= farmaco.getPrezzo() %></td>
-                    <td><%= farmaco.getQuantita() %></td>
-                     <td>
-                        <!-- Pulsante di aggiornamento -->
-                        <a href="updateFarmaco?id=<%= farmaco.getId() %>" class="btn btn-primary btn-sm">U</a>
-                        
-                        <!-- Pulsante di eliminazione -->
-                        <form action="deletefarmaco" method="post" style="display:inline;">
-                            <input type="hidden" name="id" value="<%= farmaco.getId() %>">
-                            <button type="submit" class="btn btn-danger btn-sm">X</button>
-                        </form>
-                    </td>
-                    
-                   
-                </tr>
-            <% } %> 
-        </tbody>
-    </table>
-      <div class="text-center mt-3">
-        <a href="addfarmaco.jsp" class="btn btn-success btn-lg">Add farmaco</a>
-    </div>
+
 <% } else if (request.getAttribute("clients") != null) { %>
     <table class="table table-bordered">
         <thead>

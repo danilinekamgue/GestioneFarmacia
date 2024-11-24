@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import config.DbConfig;
 import config.DbInfo;
 
-@WebServlet("/addfarmaco")
+@WebServlet("/admin/addfarmaco")
 public class AddFarmacoController extends HttpServlet {
 	
 	
@@ -57,7 +57,10 @@ public class AddFarmacoController extends HttpServlet {
 	        }
 
 	        // Reindirizza alla pagina dei clienti dopo l'aggiunta
-	        response.sendRedirect("home.jsp");
+
+
+		 	//request.getRequestDispatcher("admin-farmaci").forward(request, response);
+	        response.sendRedirect("admin-farmaci");
 	    }
 
 

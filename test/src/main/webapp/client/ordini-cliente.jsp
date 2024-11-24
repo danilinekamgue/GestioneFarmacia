@@ -19,7 +19,7 @@
                     for (OrdineModel ordine: ordini) {
               %>
                   <div class="mt-2 p-5 border">
-                      <p>  Ordine <%=ordine.getNumero()%>  Data <%=ordine.getTime()%>  </p>
+                      <p> <strong> Ordine : O<%=ordine.getNumero()%> <br /> Data <%=ordine.getTime()%> </strong> </p>
                       <h6 class="my-3"> Lista dei prodotti </h6>
                         <table class="table table-bordered">
                         <%
