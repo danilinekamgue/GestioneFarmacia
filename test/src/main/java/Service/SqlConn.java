@@ -68,4 +68,10 @@ public class SqlConn {
     public void setRs(ResultSet rs) {
         this.rs = rs;
     }
+
+
+	public void setEmail(int i, String email) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -1,9 +1,11 @@
 package controller;
 
-import Service.SqlConn;
-import config.DbConfig;
-import config.DbInfo;
-import model.Farmaco;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,18 +13,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
+
+import Service.SqlConn;
+import config.DbConfig;
+import config.DbInfo;
 
 
-@WebServlet(urlPatterns = {"/login"})
-public class LoginController extends HttpServlet {
+@WebServlet(urlPatterns = {"/setlogin"})
+public class UpdateAdmin  extends HttpServlet {
+
 
 
     @Override
@@ -69,12 +68,38 @@ public class LoginController extends HttpServlet {
         }
         response.sendRedirect(request.getContextPath() + "/client/cliente-farmaci");
     }
+    
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.getRequestDispatcher("/jsp/login.jsp").forward(request, response);
+
+        
+       
+            try {
+                DbInfo db = DbConfig.getDbConfig();
+                Class.forName("com.mysql.cj.jdbc.Driver");
+
+
+                String updateQuery = "UPDATE users SET role = 'admin' WHERE email = ?";
+
+                try (Connection conn = DriverManager.getConnection(db.getUrl(), db.getUser(), db.getPassword());
+                     PreparedStatement stmt = conn.prepareStatement(updateQuery)) {
+
+                    stmt.setString(1, "admin@admin.it");
+
+                    int rowsUpdated = stmt.executeUpdate();
+
+                    if (rowsUpdated > 0) {
+                        response.sendRedirect(request.getContextPath() + "/");
+                    } else {
+                        response.sendError(HttpServletResponse.SC_NOT_FOUND, "Farmaco non trovato.");
+                    }
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+                response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Errore durante l'aggiornamento del farmaco.");
+            }
+
+        response.sendRedirect(request.getContextPath() + "/");
     }
-    
-    
-    
 }

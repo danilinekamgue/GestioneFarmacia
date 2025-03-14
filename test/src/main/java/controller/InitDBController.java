@@ -82,10 +82,10 @@ public class InitDBController extends HttpServlet {
             //stmt.executeUpdate("DROP TABLE users;");
             //stmt.executeUpdate("DROP TABLE farmaci;");
 
-            stmt.executeUpdate(sqlScript1);
-            stmt.executeUpdate(sqlScript2);
-            stmt.executeUpdate(sqlScript3);
-            stmt.executeUpdate(sqlScript4);
+            //stmt.executeUpdate(sqlScript1);
+            //stmt.executeUpdate(sqlScript2);
+            //stmt.executeUpdate(sqlScript3);
+            //stmt.executeUpdate(sqlScript4);
 
 
             rs = stmt.executeQuery("SELECT email FROM users WHERE email ='admin@admin.it'");
